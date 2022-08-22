@@ -18,8 +18,7 @@ header {
 }
 
 #logo a {
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
 #menu {
@@ -52,6 +51,7 @@ header {
 #pushup-image {
     height: 600px;
     width: 100%;
+    object-fit: cover;
     position: relative;
     background: url('../images/man-g61b001b6d_1920.jpg') no-repeat center center;
 }
