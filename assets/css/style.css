@@ -1,8 +1,20 @@
-h1 {
-    color:rgb(243, 7, 7)
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-h2 {
-    background-color: aqua;
+header {
+    background-color: bisque;
+}
+
+#logo {
+    font-size: 200%;
+    float: left;
+}
+
+#menu {
+    list-style: none;
+    float:right
 }
 
