@@ -5,16 +5,53 @@
 }
 
 header {
-    background-color: bisque;
+    color: rgb(37, 37, 37);
+    background-color: whitesmoke;
+    height: 75px;
 }
 
 #logo {
-    font-size: 200%;
+    font-size: 300%;
     float: left;
+    margin-left: 30px;
+    color: rgb(37, 37, 37);
+}
+
+#logo a {
+    text-decoration: none;
+    
 }
 
 #menu {
-    list-style: none;
-    float:right
+    font-size: 150%; 
 }
 
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
+    float: right;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*section1: main picture + slogan*/
+#pushup-wondow {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+#pushup-image {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background: url('../images/man-g61b001b6d_1920.jpg') no-repeat center center;
+}
