@@ -48,7 +48,6 @@ header {
     font-size: 150%;
     text-align: center;
     padding-bottom: 20px;
-    text-decoration: underline none;
 }
 
 #menu {
@@ -72,13 +71,82 @@ header {
 
 /*section1: main picture + slogan*/
 #pushup-wondow {
-    height: 600px;
+    height: 585px;
     width: 100%;
     position: relative;
 }
 
 #pushup-image {
-    height: 600px;
-    width: 100%;
+    height: 585px;
+    width: auto;
     background: url('../images/man-g61b001b6d_1920.jpg') no-repeat center center;
+    position: relative
 }
+
+/********slide show**********/
+/* .container {
+    position: relative;
+    height: 600px;
+    
+  }
+  
+  /* Hide the images by default */
+ /*  .mySlides {
+    display: none; 
+  }*/
+  /******slide show*********/
+
+  /************Section2 Slogan******************/
+#slogan {
+    height: 585px;
+    color: rgb(37, 37, 37);
+    background-color: whitesmoke;
+}
+#slogan h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 200%;
+}
+
+#left-block {
+    padding-top: 40px;
+    width: 40%;
+    
+    margin-left: 50px;
+}
+
+#right-block {
+    padding-top: 40px;
+    width: 40%;
+    
+    margin-left: 50px;
+}
+
+#center-block {
+    padding-top: 40px;
+    width: 40%;
+    
+    margin-left: 50px;
+}
+    /*float center gibt es nicht*/
+
+hr {
+    border-top: 1px solid rgb(37, 37, 37);
+    width: 100%;
+    margin: 5px 0;
+}
+
+/* .left-heading {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-heading {
+    width: 60%;
+    /* float: left; */
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+} */
