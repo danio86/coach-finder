@@ -4,21 +4,44 @@
     border: none;
 }
 
+h1, h2, h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(37, 37, 37)
+}
+
 header {
     color: rgb(37, 37, 37);
     background-color: whitesmoke;
     height: 75px;
+    z-index: 998;
+    position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 #logo {
+    color: whitesmoke;
     font-size: 300%;
     float: left;
-    margin-left: 30px;
-    color: rgb(37, 37, 37);
+    padding: 20px;
 }
 
 #logo a {
     text-decoration: none; 
+}
+
+#logo-background {
+    height: 100px;
+    width: fit-content;
+    background-color: rgb(37, 37, 37);
+    margin-left: 100px;
+    float: left;
+    position: absolute;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 1px;
+    border-radius: 2px;
 }
 
 #menu {
@@ -27,11 +50,11 @@ header {
 
 #menu li {
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 50px;
     float: right;
 }
 
-#menu, #logo {
+#menu, #logo-background, #logo  {
     line-height: 75px;
 }
 
@@ -44,14 +67,11 @@ header {
 #pushup-wondow {
     height: 600px;
     width: 100%;
-    overflow: hidden;
-    
+    position: relative;
 }
 
 #pushup-image {
     height: 600px;
     width: 100%;
-    object-fit: cover;
-    position: relative;
     background: url('../images/man-g61b001b6d_1920.jpg') no-repeat center center;
 }
