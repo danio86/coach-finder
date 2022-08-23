@@ -4,16 +4,15 @@
     border: none;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
     letter-spacing: 5px;
     text-transform: uppercase;
-    color: rgb(37, 37, 37)
 }
 
 header {
     color: rgb(37, 37, 37);
     background-color: whitesmoke;
-    height: 75px;
+    height: 110px;
     z-index: 998;
     position: fixed;
 	top: 0;
@@ -24,15 +23,15 @@ header {
     color: whitesmoke;
     font-size: 300%;
     float: left;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
 }
 
 #logo a {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 #logo-background {
-    height: 100px;
+    height: 130px;
     width: fit-content;
     background-color: rgb(37, 37, 37);
     margin-left: 100px;
@@ -42,6 +41,14 @@ header {
     border-color: whitesmoke;
     border-width: 1px;
     border-radius: 2px;
+}
+
+#logo-background p {
+    color: whitesmoke;
+    font-size: 150%;
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: underline none;
 }
 
 #menu {
@@ -54,8 +61,8 @@ header {
     float: right;
 }
 
-#menu, #logo-background, #logo  {
-    line-height: 75px;
+#menu {
+    line-height: 120px;
 }
 
 #menu a {
