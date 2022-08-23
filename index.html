@@ -86,13 +86,81 @@
                 <div id="circle-cover-bg"></div>
             </div>
         </div>
-
-        <!-- <div id="slide-show">
-            <div class="flex-viewport" style="overflow: hidden; position: relative;">
+<!--slider-->
+        <!-- <div class="slide-show">
+            <div class="slide-images">
+                <div class="image-container">
+                    <img src="assets/images/ease-g185479d7c_1920.jpg" alt="">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/woman-g300e0832e_1920.jpg" alt="">
+                </div>
+            </div>
 
         </div> -->
+<!--slider-->
 
     </section>
+
+    <!--slider-->
+    <section id="slider"> 
+        <div class="slide-show">
+            <div class="slide-images">
+
+                <!--radio-start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--radio-end-->
+
+                <!--slide-image-start-->
+                <div class="image-container first">
+                    <img src="assets/images/ease-g185479d7c_1920.jpg">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/woman-g300e0832e_1920.jpg">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/man-g61b001b6d_1920.jpg">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/woman-g300e0832e_1920.jpg">
+                </div>
+                <!--slide-image-end-->
+
+                <!--automatic navigation-start-->
+                <div class="natigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!--automatic navigation-end-->
+
+            </div>
+            <!--manuelle-navigation-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+
+            </div>
+            <!--manuelle-navigation-->
+        </div>
+        <script type="text/javascript">
+            var counter=1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked=true;
+                counter++
+                if (counter>4){
+                    counter=1
+                }
+            }, 5000);
+        </script>
+    </section>
+    <!--slider-->
     
         
     <section id="map">
