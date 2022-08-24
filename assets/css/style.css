@@ -51,7 +51,8 @@ header {
 }
 
 #menu {
-    font-size: 150%; 
+    font-size: 150%;
+    line-height: 120px; 
 }
 
 #menu li {
@@ -60,14 +61,23 @@ header {
     float: right;
 }
 
-#menu {
+/* #menu {
     line-height: 120px;
-}
+} */
 
 #menu a {
     text-decoration: none;
     color: inherit;
 }
+
+.active {
+    border-bottom: 1px solid rgb(37, 37, 37);}
+
+
+#menu a:hover {
+    border-bottom: 1px solid rgb(37, 37, 37);
+}
+
 
 /*section1: main picture + slogan*/
 #pushup-wondow {
