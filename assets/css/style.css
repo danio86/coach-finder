@@ -127,15 +127,16 @@ header {
 
 /**********section1: main picture start********/
 #pushup-wondow {
-    height: 600px;
+    height: 100vh;
     width: 100%;
     position: relative;
+    margin-bottom: auto;
 }
 
 #pushup-image {
-    height: 600px;
+    height: 100vh;
     width: 100%;
-    background: url('../images/mountain-paar-bearbeitet.jpg') no-repeat center center;
+    background: url('../images/mountain-paar-bearbeitet2.jpg') no-repeat center center;
     position: relative
 }
 /**********section1: main picture End********/
@@ -337,3 +338,35 @@ hr {
 }
 
 
+
+
+/*********************css-footer-start**************************/
+
+
+footer {
+    height: 150px;
+    color: whitesmoke;
+    background-color: rgb(37, 37, 37);
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+}
+footer ul {
+    text-align: center;
+    
+}
+
+footer li {
+    list-style: none;
+    display:inline;
+    padding: 60px;
+    font-size: 160%;
+}
+
+footer i {
+    color: whitesmoke;
+}
+
+/*********************css-footer-end****************************/
