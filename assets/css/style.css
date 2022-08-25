@@ -125,24 +125,24 @@ header {
 /***********css- dropdown-end**************/
 
 
-/*section1: main picture + slogan*/
+/**********section1: main picture start********/
 #pushup-wondow {
-    height: 585px;
+    height: 600px;
     width: 100%;
     position: relative;
 }
 
 #pushup-image {
-    height: 585px;
-    width: auto;
-    background: url('../images/man-g61b001b6d_1920.jpg') no-repeat center center;
+    height: 600px;
+    width: 100%;
+    background: url('../images/mountain-paar-bearbeitet.jpg') no-repeat center center;
     position: relative
 }
-
+/**********section1: main picture End********/
 
 
   /************Section2 Slogan******************/
-#slogan {
+/* #slogan {
     height: 585px;
     color: rgb(37, 37, 37);
     background-color: whitesmoke;
@@ -172,16 +172,12 @@ header {
     width: 40%;
     
     margin-left: 50px;
-}
+} */
     /*float center gibt es nicht*/
 
-hr {
-    border-top: 1px solid rgb(37, 37, 37);
-    width: 96.5%;
-    margin: 5px 0;
-}
 
-/**********slide-show*************/
+
+/**********slide-show-+-slogan*************/
 #slider {
     margin: 0;
     padding: 0;
@@ -189,19 +185,20 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
 }
 
+/**************slider-left-block-start*****************************/
 #slider-h1 {
     text-align: center;
     margin-top: 30px;
     font-size: 200%;
     margin-top: -600px;
-    
-    /* margin-left: 200px; */
-    /* width:fit-content; */
-    /* height:fit-content;
-    overflow: visible; */
+    /* margin-left: 200px;
+    width:fit-content; 
+    height:fit-content;
+    overflow: visible;  */
 
 }
 
@@ -214,12 +211,23 @@ hr {
     padding-right: 50px;
     padding-left: 25px;
 }
-/* .left-heading {
-    width: 60%;
-    line-height: 20px;
-    /* clear: both; 
-    margin-bottom: 50px; */
 
+.left-heading {
+    /* width: 60%; */
+    line-height: 20px;
+    /* clear: both; */
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+hr {
+    border-top: 1px solid whitesmoke;
+    width: 96.5%;
+    margin: 5px 0;
+}
+/********slider-left-block-end******************/
+
+/********slide-show-start**********************/
 .slide-show {
     height: 500px;
     width: 800px;
@@ -329,60 +337,3 @@ hr {
 }
 
 
-/* .slide-show {
-    overflow: hidden;
-    height: 800px;
-    width: 100%;
-    
-    margin-top: 20px;
-    margin-bottom: 20px; 
-}
-
-/********slide-animation*********/
-/* @-webkit-keyframes slide-animation {
-    0% {left: 0px;}
-    10% {left: 0px;}
-    20% {left: 1200px;}
-    30% {left: 1200px;}
-    40% {left: 2400px;}
-    50% {left: 2400px;}
-    60% {left: 1200px;}
-    70% {left: 1200px;}
-    80% {left: 0px;}
-    90% {left: 0px;}
-    100% {left: 0px;}
-}
-
-.slide-images {
-    width: 3600px;
-    height: 800px;
-    margin: 0 0 0 -2400;
-    position: relative;
-    -webkit-animation-name: slide_animation;
-    -webkit-animation-delay: 3s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-play-state: running;
-}
-.image-container {
-    height: 800px;
-    width: 1200px;
-    position: relative;
-    float: left;
-
-} */
-
-/* .left-heading {
-    width: 60%;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-heading {
-    width: 60%;
-    /* float: left; 
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-} */
