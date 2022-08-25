@@ -82,7 +82,7 @@ header {
     background-color: whitesmoke;
 }
 
-.dropdown:hover /* .dropbtn */ {
+.dropdown:hover .dropbtn {
     border-bottom: 1px solid rgb(37, 37, 37);
   }
 
@@ -139,18 +139,7 @@ header {
     position: relative
 }
 
-/********slide show**********/
-/* .container {
-    position: relative;
-    height: 600px;
-    
-  }
-  
-  /* Hide the images by default */
- /*  .mySlides {
-    display: none; 
-  }*/
-  /******slide show*********/
+
 
   /************Section2 Slogan******************/
 #slogan {
@@ -188,7 +177,7 @@ header {
 
 hr {
     border-top: 1px solid rgb(37, 37, 37);
-    width: 100%;
+    width: 96.5%;
     margin: 5px 0;
 }
 
@@ -202,6 +191,34 @@ hr {
     align-items: center;
     background-color: aquamarine;
 }
+
+#slider-h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 200%;
+    margin-top: -600px;
+    
+    /* margin-left: 200px; */
+    /* width:fit-content; */
+    /* height:fit-content;
+    overflow: visible; */
+
+}
+
+#slider-left-block {
+    padding-top: 40px;
+    /* padding-bottom: 40px; */
+    width: 40%;
+    /* margin-left: 50px; */
+    margin-left: -700px;
+    padding-right: 50px;
+    padding-left: 25px;
+}
+/* .left-heading {
+    width: 60%;
+    line-height: 20px;
+    /* clear: both; 
+    margin-bottom: 50px; */
 
 .slide-show {
     height: 500px;
