@@ -33,7 +33,7 @@
                         </button>
                         <div class="dropdown-content">
                           <a href="#">Ball sports</a>
-                          <a href="#">Endurance Sports</a>
+                          <a href="#">Endurance</a>
                           <a href="#">Fitness</a>
                           <a href="#">Gymnastics</a>
                           <a href="#">Martial Arts</a>
@@ -50,30 +50,67 @@
             </ul>
         </nav>
     </header>
-    <!-----------start-image-start-was img of people making pushups at first--------------------->
+
+<!-----------section1 start-image-start---------------------->
     <section id="pushup-wondow">
-        <img src="assets/images/gym-girl-gf628391f2_1920.jpg" alt="">
+        <div id="start-image"></div>
     </section>
-<!-----------start-image-End-was img of people making pushups at first--------------------->
+<!-----------section1 start-image-End------------------------>
 
 <!---------------------------------Choose a Sport start------------------------------------>
 <section id="sports-dropdown">
-    <div class="type">
-        <a href="ball">Ball sport</a>
-        <div class="dropdown">
-          <button class="dropbtn">Dropdown 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
+    <h2>Choose a sport</h2>
+
+   <!--  <div class="sport-type"> 
+          <button onclick="myFunction()" class="sport-bnt">Ball sport <i class="fa fa-caret-down"></i></button>
+          <div id="my-ball-contend" class="ball-content">
             <a href="#">Basketball</a>
             <a href="#">Ice Hockey</a>
             <a href="#">Football</a>
             <a href="#">Tennis</a>
           </div>
-        </div> 
-      </div>
+    </div>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script> -->
 
 </section>
+<!--test start-->
+<section id="sports-dropdown">
+    <h2>Choose a sport</h2>
+    <form class="sport-type">
+        <select class="ball-sport" name="ball sport">
+            <option value="ball">Ball sport<i class="fa-solid fa-volleyball"></i></option>
+            <option value="science"><a href="#">Ice Hockey</a>Science</option>
+            <option value="finance">Finance</option>
+            <a href="#">Ice Hockey</a>
+            <a href="#">Football</a>
+            <a href="#">Tennis</a>
+        </select>
+    </form>
+</section>
+<!--test end-->
+
+<!-------------test2---------------->
+<!-------------test2---------------->
 
 <!---------------------------------Choose a Sport end------------------------------------>
 <!---------------slider-+-slogan------------------->
