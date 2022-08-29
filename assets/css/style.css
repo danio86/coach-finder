@@ -422,11 +422,18 @@ footer i {
     position: relative}
 
 /*************************section1-image end********************************/
+
 /***********************section2 choose a sport start**************************/
 #sports-dropdown {
     height: 100vh;
     background-color: aquamarine;
     position: relative;
+}
+
+#sports-dropdown h2 {
+    font-size: 200%;
+    text-align: center;
+    padding: 25px 0;
 }
 
 .sports-dropdown-backgroung {
@@ -480,17 +487,20 @@ footer i {
     display: block;
     padding: 5px 50px
 }
-/****************************************************/
+
 .ball-content:hover {
     background-color: rgb(37, 37, 37, 0.7);
     color: whitesmoke;
-    display: block;
 }
   
 .ball-content a:hover {
     background-color: whitesmoke; 
     color: rgb(37, 37, 37);
     text-decoration: none;
+}
+
+.sports-dropdown-backgroung:hover {
+    background-color: azure;
 }
 
 .sports-dropdown-backgroung:hover .ball-content {
