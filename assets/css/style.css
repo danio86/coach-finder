@@ -192,35 +192,47 @@ header {
 #slider {
     margin: 0;
     padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 600px;
+    /* height: 100vh; */
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
     background-color: rgb(37, 37, 37);
     color: whitesmoke;
+    position: relative;
 }
 
 /**************slider-left-block-start*****************************/
 #slider-h1 {
     text-align: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     font-size: 200%;
-    margin-top: -600px;
+    /* margin-top: -600px; */
     /* margin-left: 200px;
     width:fit-content; 
     height:fit-content;
     overflow: visible;  */
+    margin-left: 50px;
+    /* position: absolute; */
+}
 
+#h1-slider {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    /* color: aqua; */
+    /* position: absolute; */
 }
 
 #slider-left-block {
     padding-top: 40px;
     /* padding-bottom: 40px; */
     width: 40%;
-    /* margin-left: 50px; */
-    margin-left: -700px;
-    padding-right: 50px;
-    padding-left: 25px;
+    margin-left: 50px;
+    /* margin-left: -700px; */
+    /* padding-right: 50px; */
+    /* padding-left: 25px; */
+    position: absolute;
 }
 
 .left-heading {
@@ -244,6 +256,10 @@ hr {
     width: 800px;
     border-radius: 10px;
     overflow: hidden;
+    float:right;
+    /* margin-left: 500px; */
+    position: relative;
+    margin: 25px 50px;
 }
 
 .slide-images {
@@ -426,7 +442,7 @@ footer i {
 /***********************section2 choose a sport start**************************/
 #sports-dropdown {
     height: 100vh;
-    background-color: aquamarine;
+    background-color: rgb(37, 37, 37);
     position: relative;
 }
 
@@ -434,6 +450,7 @@ footer i {
     font-size: 200%;
     text-align: center;
     padding: 25px 0;
+    color: whitesmoke;
 }
 
 .sports-dropdown-backgroung {
