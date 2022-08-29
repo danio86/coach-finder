@@ -21,8 +21,8 @@ h1, h2, h3 {
 header {
     color: rgb(37, 37, 37);
     background-color: whitesmoke;
-    height: 110px;
-    z-index: 998;
+    height: 100px;
+    z-index: 1;
     position: fixed;
 	top: 0;
 	width: 100%;
@@ -105,8 +105,13 @@ header {
     height: fit-content;
     /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
-    margin-top: -10px;
+    margin-top: -20px;
     font-size: 90%;
+  }
+
+  .dr-content {
+    height: 20px;
+    background-color: aqua;
   }
   
   .dropdown-content a {
@@ -137,7 +142,7 @@ header {
 
 /**********section1: main picture start********/
 #pushup-wondow {
-    height: 400px;
+    height: 600px;
     width: 100%;
     position: relative;
     margin-bottom: auto;
@@ -146,7 +151,7 @@ header {
 #pushup-image {
     height: 100vh;
     width: 100%;
-    background: url('../images/mountain-paar-bearbeitet2.jpg') no-repeat center center;
+    background: url('../images/mountain-paar-bearbeitet.jpg') no-repeat center center;
     position: relative
 }
 /**********section1: main picture End********/
@@ -398,9 +403,9 @@ footer i {
 
 /*************************section1-image start********************************/
 #start-image {
-    height: 400px;
+    height: 600px;
     width: 100%;
-    background: url('../images/gym-girl-gf628391f2_1920.jpg') no-repeat center center;
+    background: url('../images/woman-g300e0832e_1920.jpg') no-repeat center center;
     position: relative}
 
 /*************************section1-image end********************************/
