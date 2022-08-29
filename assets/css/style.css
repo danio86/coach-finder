@@ -112,6 +112,10 @@ header {
   .dr-content {
     height: 20px;
     background-color: aqua;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5px;
   }
   
   .dropdown-content a {
