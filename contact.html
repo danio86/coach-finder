@@ -20,7 +20,7 @@
         <nav id="menu">
             <ul>
                 <li>
-                    <a href="sign-up.html"><i class="fa-solid fa-user"></i> Sign Up</a>
+                    <a href="answer.html"><i class="fa-solid fa-user"></i> Sign Up</a>
                 </li>
                 <li>
                     <a href="contact.html" class="active"><i class="fa-solid fa-envelope"></i> Contact</a>
@@ -43,27 +43,34 @@
 
 <!---------------------------------section2 send us a message start------------------------------------>
 <section id="message">
-    <!-- <form action="https://formdump.codeinstitute.net/" method="post"></form> -->
-    <form action="https://formdump.codeinstitute.net/" method="post">
-        <!-- <input type="text" name="username" placeholder="Desired Username">
-        <input type="password" name="password1" placeholder="Desired Password">
-        <input type="password" name="password2" placeholder="Confirm Password"> -->
+    <h1>You want to contact us? Drop a message! <i class="fa-solid fa-face-smile-wink"></i></h1>
+    <form id="contact-form" action="https://formdump.codeinstitute.net/" method="post">
+        <div id="label-email">
         <label for="email">E-Mail Address</label>
-        <input id="email" type="email" name="email" placeholder="Email Address" required>
-        
-        <label for="feedback">Feedback</label>
-  	    <br>
-  	    <textarea id="feedback" name="feedback" placeholder="Your Feedback" rows="10" cols="50" line="blue">
-  	    </textarea>
-  	    <br>
+        <input id="email" type="email" name="email" placeholder= "To reveive an answer" required>
+        </div>
+        <h2>Type Your Message</h2>
   	    
-        
-        <input type="submit" value="Send message">
-        <button><a href="answer.html"></a>receive answer</button>
+        <div id="div-textarea">
+  	    <textarea class="textarea" id="Message" name="message" placeholder="Your Message" rows="15" cols="100" line="blue">
+  	    </textarea>
+        </div>
+        <div id="submit">
+        <input type="submit" value="Send Message">
+        <button>
+            <a href="answer.html">Receive Answer <i class="fa-solid fa-message"></i></a>
+        </button>
         <input type="reset" value="Clear Form">
+        </div> 
     </form>
-    <button><a href="answer.html"></a>receive answer</button>
+    <div id="contact-info">
+        <p>
+            Nice to hear from you!
+If you have any questions about your purchased membership, you can best reach us by email at coachfinder@gmail.at, using the contact form or by telephone on +43 1 234 45 67 89.
+        </p>
+    </div>
 </section>
+
 <!---------------------------------section2 send us a message end------------------------------------>
     
 <!-----------------------------Map-start------------------------------->      
