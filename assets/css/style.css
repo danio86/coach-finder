@@ -99,14 +99,14 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    color: whitesmoke;
+/*     color: whitesmoke;
     background-color: rgba(37, 37, 37, .7);;
     min-width: 137px;
     height: fit-content;
-    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     margin-top: -20px;
-    font-size: 90%;
+    font-size: 90%; */
   }
 
   .dr-content {
@@ -118,27 +118,42 @@ header {
     padding: 5px;
   }
   
-  .dropdown-content a {
-   /*  float: none; */
+ /*  .dropdown-content a {
+    float: none;
     color: rgb(37, 37, 37);
     padding: 5px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
+  } */
 
-.dropdown-content a:hover {
+/* .dropdown-content a:hover {
     color: whitesmoke !important;
     background-color: rgb(37, 37, 37, 0.7); 
-}
-.dropdown-content:hover {
+} */
+
+/* .dr-content a:hover {
+    color: whitesmoke !important;
+    background-color: rgb(37, 37, 37, 0.7);
+} */
+
+/* .dr-content:hover {
     background-color: whitesmoke;
     color: rgb(37, 37, 37);
-}
+} */
+
+/* .dropdown-content:hover {
+    background-color: whitesmoke;
+    color: rgb(37, 37, 37);
+} */
   
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dr-content {
     display: block;
 }
+
+/*   .dropdown:hover .dropdown-content {
+    display: block;
+} */
 
 
 /***********css- dropdown-end**************/
