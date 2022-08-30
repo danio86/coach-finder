@@ -587,10 +587,12 @@ footer i {
 
 #submit /* input, */ a {
     text-decoration: none;
-    padding: 5px 100px;
+    padding: 5px 50px;
     color: whitesmoke;
     background-color: rgb(37, 37, 37);
-    font-size: 120%;
+    font-size: 135%;
+    border: 1px solid whitesmoke; 
+    border-radius: 2px;
 }
 
 #submit input {
@@ -598,6 +600,9 @@ footer i {
     background-color: rgb(37, 37, 37);
     font-size: 120%;
     cursor: pointer;
+    border: 1px solid whitesmoke; 
+    border-radius: 2px;
+    padding: 5px 50px;
 }
 
 #contact-info {
