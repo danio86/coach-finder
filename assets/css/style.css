@@ -99,6 +99,7 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
+    margin-top: -20px;
 /*     color: whitesmoke;
     background-color: rgba(37, 37, 37, .7);;
     min-width: 137px;
@@ -151,9 +152,9 @@ header {
     display: block;
 }
 
-/*   .dropdown:hover .dropdown-content {
+  .dropdown:hover .dropdown-content {
     display: block;
-} */
+}
 
 
 /***********css- dropdown-end**************/
