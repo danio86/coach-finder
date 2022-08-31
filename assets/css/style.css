@@ -285,7 +285,7 @@ hr {
 }
 
 .manual-btn {
-    border: 2px solid red;
+    border: 2px solid rgb(3, 170, 170);
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -298,7 +298,7 @@ hr {
 }
 
 .manual-btn:hover {
-    background: red;
+    background: aqua;
 }
 
 #radio1:checked~.first {
@@ -317,6 +317,14 @@ hr {
     margin-left: -60%;
 }
 
+#radio5:checked~.first {
+    margin-left: -80%;
+}
+
+#radio6:checked~.first {
+    margin-left: -100%;
+}
+
 /*****css-automatic-slides*****/
 .natigation-auto {
     position: absolute;
@@ -327,7 +335,7 @@ hr {
 }
 
 .natigation-auto div {
-    border: 2px solid red;
+    border: 2px solid rgb(3, 170, 170);
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -339,19 +347,27 @@ hr {
 
 
 #radio1:checked~.natigation-auto .auto-btn1 {
-    background: red;
+    background: aqua;
 }
 
 #radio2:checked~.natigation-auto .auto-btn2 {
-    background: red;
+    background: aqua;
 }
 
 #radio3:checked~.natigation-auto .auto-btn3 {
-    background: red;
+    background: aqua;
 }
 
 #radio4:checked~.natigation-auto .auto-btn4 {
-    background: red;
+    background: aqua;
+}
+
+#radio5:checked~.natigation-auto .auto-btn5 {
+    background: aqua;
+}
+
+#radio6:checked~.natigation-auto .auto-btn6 {
+    background: aqua;
 }
 
 /*****************css-map-start**************************/
