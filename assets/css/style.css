@@ -68,6 +68,7 @@ header {
     list-style-type: none;
     margin-right: 50px;
     float: right;
+    height: 76px;
 }
 
 #menu a {
@@ -79,7 +80,10 @@ header {
     border-bottom: 1px solid rgb(37, 37, 37);}
 
 
-#menu a:hover {
+/* #menu a:hover {
+    border-bottom: 1px solid rgb(37, 37, 37);
+} */
+#menu li:hover {
     border-bottom: 1px solid rgb(37, 37, 37);
 }
 
@@ -148,9 +152,9 @@ header {
     color: rgb(37, 37, 37);
 } */
   
-.dropdown:hover .dr-content {
+/* .dropdown:hover .dr-content {
     display: block;
-}
+} */
 
   .dropdown:hover .dropdown-content {
     display: block;
