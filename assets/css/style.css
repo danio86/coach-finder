@@ -570,6 +570,7 @@ footer i {
 
 #div-textarea {
     position: relative;
+    background-color:antiquewhite;
 }
 
 .textarea {
@@ -612,6 +613,23 @@ footer i {
 }
 
 /**********************************section2 send us a message end************************/
+
+/**********************************section3 map start************************/
+#cover-text-contact {
+    position: absolute;
+    /*position in browser window*/
+    top: 200px;
+    left: 150px;
+    width: fit-content;
+    height: fit-content;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(37, 37, 37, 0.7);
+    color: whitesmoke;
+}
+/**********************************section3 map start************************/
 
 /**************************contact.html end***************************/
 
