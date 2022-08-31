@@ -116,7 +116,8 @@ header {
 
   .dr-content {
     height: 20px;
-    background-color: aqua;
+    background-color: rgb(37, 37, 37, 0.7);
+    color: whitesmoke;
     display: flex;
     /* justify-content: center; */
     align-items: center;
