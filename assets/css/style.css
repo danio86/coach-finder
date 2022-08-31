@@ -94,6 +94,8 @@ header {
     color: inherit;
     background-color: whitesmoke;
     font-family: inherit;
+    position: relative;
+    z-index: 2;
 }
 
 .dropdown:hover .dropbtn {
