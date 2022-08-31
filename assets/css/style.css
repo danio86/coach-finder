@@ -634,13 +634,13 @@ footer i {
 /**************************contact.html end***************************/
 
 
-/**************************contact.html start***************************/
+/**************************answer.html start***************************/
 
 /*************************section1-image start********************************/
 #answer-image {
     height: 600px;
     width: 100%;
-    background: url('../images/baseball-g25932ac92_1920.jpg') no-repeat center center;
+    background: url('../images/danzon-gc81717c6c_1920_bearbeitet.jpg') no-repeat center center;
     position: relative}
 
 /*************************section1-image end********************************/
@@ -648,10 +648,14 @@ footer i {
 /**********************************section2 send us a message start************************/
 
 #answer {
-    height: 600px;
-    background-color: greenyellow;
+    height: 150px;
+    background-color: whitesmoke;
+    color: rgb(37, 37, 37);
+    text-align: center;
+    padding: 50px;
+    font-size: 150%;
 }
 
 /**********************************section2 send us a message end************************/
 
-/**************************contact.html end***************************/
+/**************************answer.html end***************************/
