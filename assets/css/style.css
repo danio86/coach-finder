@@ -697,8 +697,51 @@ footer i {
 /* everything coded in ths area is only applied for those screens. */
 
 @media screen and (max-width: 1410px) {
+    #logo-background {
+        position: relative;
+        margin: 0 auto;
+        height: 50px;
+        text-align: center;
+        width: fit-content;
+        float: unset;
+    }
+
+    #logo {
+        font-size: 100%;
+        padding: 0px;
+        float: unset;
+        
+    }
+
+    #logo-background p {
+        font-size: 100%;
+        padding: 5px;
+
+    }
+
+    #menu {
+        width: 100%;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        font-size: 100%;
+        line-height: 0;
+     }
+
+    #menu ul {
+        height: 50px;
+    }
+
+    menu li {
+        height: 18px;
+        margin: 10px;
+    }
+
     #slider {
-        height: 1200px;
+        height: fit-content;
+        padding-bottom: 25px;
     }
 
     #slider-left-block {
@@ -709,10 +752,15 @@ footer i {
 
     }
 
-    #slide-show {
-        width: 100%;
+    .slide-show {
         margin: 0 auto;
-        
+        margin-top: 50px;
+        margin-bottom: 50px;
+        /* height: 450px;
+        width: 750px;
+        border-radius: 10px;
+        overflow: hidden; */
+        float: unset;
         
     }
 
