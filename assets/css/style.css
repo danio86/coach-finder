@@ -690,3 +690,53 @@ footer i {
 /**********************************section2 send us a message end************************/
 
 /**************************answer.html end***************************/
+
+
+/*Media queries*/
+
+/* everything coded in ths area is only applied for those screens. */
+
+@media screen and (max-width: 1410px) {
+    #slider {
+        height: 1200px;
+    }
+
+    #slider-left-block {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        margin: 15px;
+
+    }
+
+    #slide-show {
+        width: 100%;
+        margin: 0 auto;
+        
+        
+    }
+
+    /* #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }  */
+}
