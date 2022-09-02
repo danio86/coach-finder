@@ -808,28 +808,41 @@ footer i {
         float: unset;
         
     }
+}
 
-    /* #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
+@media screen and (max-width: 950px) {
+    #cover-text {
+        top: 250px;
+        left: 0;
+        width: 300px;
+        height: 60px;
+        padding: 5px;
+        text-align: center;
+        }
+
+    #cover-text-contact {
+        top: 250px;
+        left: 0;
     }
 
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
+    #message {
+        height: fit-content;
     }
 
-    #times > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
+    #contact-form {
+        height: fit-content;
     }
 
-    hr {
-        display: none;
-    }  */
+    .textarea {
+        width: 80%;
+    }
+
+    #submit {
+        width: initial;
+    }
+
+    #submit input {
+        margin: 10px;
+    }
+
 }
