@@ -858,3 +858,19 @@ footer i {
     }
 
 }
+
+@media screen and (max-width: 750px) {
+    #logo-background {
+        float: left;
+        margin: 5px;
+    }
+
+    #menu {
+        justify-content: unset;
+    }
+
+    #menu li {
+        float:unset
+    }
+
+}
