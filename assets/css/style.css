@@ -184,12 +184,19 @@ header {
 }
 
 #pushup-image {
-    height: 100vh;
+    height: 600px;
     width: 100%;
     background: url('../images/mountain-paar-bearbeitet.jpg') no-repeat center center;
     position: relative
 }
 /**********section1: main picture End********/
+
+/**********section1: test start********/
+#test-bild {
+    width: 100%;
+    height: auto;
+}
+/**********section1: test end********/
 
 
 /**********section2 - slide-show-+-slogan*************/
@@ -756,6 +763,10 @@ footer i {
         background-color: rgb(37, 37, 37);
         margin-top: -2px;
     }
+
+    /************main image************/
+
+    /************main image************/
 
     #slider {
         height: fit-content;
