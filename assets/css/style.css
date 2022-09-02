@@ -176,7 +176,7 @@ header {
 
 
 /**********section1: main picture start********/
-#pushup-wondow {
+/* #pushup-wondow {
     height: 600px;
     width: 100%;
     position: relative;
@@ -188,15 +188,16 @@ header {
     width: 100%;
     background: url('../images/mountain-paar-bearbeitet.jpg') no-repeat center center;
     position: relative
-}
+} */
 /**********section1: main picture End********/
 
-/**********section1: test start********/
-#test-bild {
-    width: 100%;
+/**********section1: start img start********/
+#start-img-index {
+    max-width: 100%;
     height: auto;
+    margin-bottom: -5px;
 }
-/**********section1: test end********/
+/**********section1: start img end********/
 
 
 /**********section2 - slide-show-+-slogan*************/
