@@ -697,6 +697,10 @@ footer i {
 /* everything coded in ths area is only applied for those screens. */
 
 @media screen and (max-width: 1410px) {
+    header {
+        background-color: rgb(37, 37, 37);
+    }
+
     #logo-background {
         position: relative;
         margin: 0 auto;
@@ -704,18 +708,22 @@ footer i {
         text-align: center;
         width: fit-content;
         float: unset;
+        font-size: 120%;
+        padding: 0 20px;
+        margin-top: 10px;
     }
 
     #logo {
         font-size: 100%;
-        padding: 0px;
         float: unset;
+        padding: 5px 10px 0 10px;
         
     }
 
     #logo-background p {
         font-size: 100%;
-        padding: 5px;
+        /* padding: 5px; */
+        margin-top: -5px;
 
     }
 
@@ -728,6 +736,7 @@ footer i {
         height: 50px;
         font-size: 100%;
         line-height: 0;
+        color: whitesmoke;
      }
 
     #menu ul {
@@ -739,17 +748,53 @@ footer i {
         margin: 10px;
     }
 
+    .dropdown-content {
+        margin-top: unset;
+    }
+
+    .dropbtn {
+        background-color: rgb(37, 37, 37);
+        margin-top: -2px;
+    }
+
     #slider {
         height: fit-content;
         padding-bottom: 25px;
     }
 
+    #h1-slider {
+        padding: 25px 0;
+    }
+
+    .left-heading p {
+        padding: 0 15px;
+    }
+
+    hr {
+        width: unset;
+        margin: 5px 15px;
+    }
+
+    .active {
+        border-bottom: 1px solid whitesmoke;
+    }
+    
+   
+    #menu li:hover {
+        border-bottom: 1px solid whitesmoke;
+    }
+
+    .dropdown:hover .dropbtn {
+        border-bottom: 1px solid whitesmoke;
+      }
+
     #slider-left-block {
         width: 100%;
         text-align: center;
         position: relative;
-        margin: 15px;
-
+        /* margin: 15px;
+        padding-right: 50px; */
+        margin: 0 auto;
     }
 
     .slide-show {
