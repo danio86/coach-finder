@@ -884,14 +884,57 @@ footer i {
         margin-bottom: 0px;
     }
 
+    #menu a {
+        padding-left: 2px;
+    }
+
     .fa-magnifying-glass::before, .fa-search::before {
         margin-right: 10px;
     }
 
+    /* .fa-magnifying-glass::after {
+        margin-right: unset;
+    } */
+
     .active {
-        /* border-bottom: none; */
+        border-bottom: none;
         border-left: 1px solid whitesmoke;
-        border-spacing: 2px
+    }
+
+    .dropdown:hover .dropbtn {
+        border-bottom: none
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: none;
+    }
+
+    #h1-slider {
+        margin-bottom: 15px;
+    }
+
+    #slider-h1 {
+        font-size: 150%;
+        margin-left: unset;
+    }
+
+    .left-heading {
+        padding-bottom: unset;
+        font-size: small;
+    }
+
+    footer p {
+        margin-bottom: -40px;
+        padding-bottom: 0px;
+    }
+
+    footer ul {
+        margin-top: 45px;
+        padding-top: 15px;
+    }
+
+    footer li {
+        display:contents
     }
 
 }
