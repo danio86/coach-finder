@@ -609,7 +609,7 @@ footer i {
 
 #div-textarea {
     position: relative;
-    background-color:antiquewhite;
+    background-color:rgb(37, 37, 37, 0.7);
 }
 
 .textarea {
@@ -867,10 +867,30 @@ footer i {
 
     #menu {
         justify-content: unset;
+        margin-top: 30px;
+    }
+
+    #menu ul {
+        /* height: inherit; */
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     #menu li {
-        float:unset
+        float:unset;
+        background-color: rgb(37, 37, 37);
+        padding: 2px;
+        margin-top: auto;
+        margin-bottom: 0px;
+    }
+
+    .fa-magnifying-glass::before, .fa-search::before {
+        margin-right: 10px;
+    }
+
+    .active {
+        border-bottom: none;
+        /* border: 1px solid whitesmoke; */
     }
 
 }
