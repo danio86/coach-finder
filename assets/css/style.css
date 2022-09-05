@@ -889,8 +889,9 @@ footer i {
     }
 
     .active {
-        border-bottom: none;
-        /* border: 1px solid whitesmoke; */
+        /* border-bottom: none; */
+        border-left: 1px solid whitesmoke;
+        border-spacing: 2px
     }
 
 }
