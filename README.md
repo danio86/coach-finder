@@ -23,7 +23,7 @@ den mache ich hier: http://ami.responsivedesign.is/
   - The basic code of the dropdown menu is taken from the following website, but has been changed a lot.
     - https://www.w3schools.com/howto/howto_css_dropdown.asp
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](Screenshot%20top-menu.png)
 Screenshot von der Nav - Bar!!!!
 
 - __The landing page image__
