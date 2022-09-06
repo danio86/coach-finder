@@ -23,16 +23,18 @@ den mache ich hier: http://ami.responsivedesign.is/
   - The basic code of the dropdown menu is taken from the following website, but has been changed a lot.
     - https://www.w3schools.com/howto/howto_css_dropdown.asp
 
-![Nav Bar](Screenshot%20top-menu.png)
-Screenshot von der Nav - Bar!!!!
+Nav Bar
+<img src="assets/images/Screenshot top-menu.png" alt="Nav Bar">
+<img src="assets/images/top-menu + dropdown.png" alt="Nav Bar + Dropdown">
+
 
 - __The landing page image__
 
-  - The landing contains a photo with logo overlay. The section is scaled the same on each web page but contains different images
+  - The landing contains a photo with logo overlay. The section is scaled the same on each of the three web pages but contains different images
   - This section aims to motivate the user to use Coachfinder.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-Screenshot!!!!!!!
+Landing Page image
+<img src="assets/images/mountain-paar-bearbeitet2.jpg" alt="Landing Page" height="50%" width="50%">
 
 - __The Footer__ 
 
@@ -41,7 +43,8 @@ Screenshot!!!!!!!
   - The footer is valuable to the user as it encourages them to keep connected via social media
   - The footer idea and basic code is taken form the **Code-Institute Love-Running-Project** but has been slightly modified.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+Footer
+<img src="assets/images/screenshot-footer.png" alt="Footer">
 
 ### The Homepage
 
@@ -59,8 +62,8 @@ Screenshot!!!!!!!
     - https://www.youtube.com/watch?v=0wvrlOyGlq0
   - The slide show will convey positive impressions about Coachfinder and motivate the user to use Coachfinder.
 
-Screenshot!!!
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+Slogan and Slideshow
+<img src="assets/images/screenshot-slogan-slideshow.png" alt="Slogan-Slideshow">
 
   - __Map section__
 
@@ -69,8 +72,8 @@ Screenshot!!!
     - Since the website doesn't actually exist and no coaches are registered, only an example destination in Ireland appears. In the future, however, numerous trainers should be able to be found when scrolling and zooming through the **_google maps_** map. These can then be clicked on, which will take you to their Coachfinder profile. In this profile, the trainers will be able to advertise themselves.
     - This section will be updated as new choaches sign in. 
 
-Screenshot!!!!!!!!
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+Map
+<img src="assets/images/screenshot-map2.png" alt="Map">
 
 
 ### The Sport-Page
@@ -83,8 +86,10 @@ Screenshot!!!!!!!!
   - The sports categories lead to specific sports via the drop-down menu. These are links and may be clicked in the future. Numerous coaches and sports clubs will then be displayed on the following web pages. Here the users must then also announce their location in order to narrow down the selection. Since there are many more sports and no real coaches are registered and numerous follow-up web pages would be necessary, the links on this exercise website do not work. 
 
 
-Screenshot!!!!!!!!!
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+Sport-Dropdown
+<img src="assets/images/screenshot-sport-selector.png" alt="Sport-Dropdown">
+Sport-Dropdown-extended 
+<img src="assets/images/screenshot-sport-selector2.png" alt="Sport-Dropdown">
 
 - __The Map section__
 
@@ -101,8 +106,8 @@ __The Send us a message section__
   - After sending the message, the user will receive confirmation that the message has arrived and is being processed. Since Coachfinder does not have a real server, the ***Code-Institute*** server was used as an example. Since no nice answer appears here, a *Receive Answer button* has been added. Clicking on this button demonstrates how feedback will look like in the future. If the company ever exists, this button will be deleted.
   - The *Receive Answer button* leads to a **fourth web page** that can only be reached here. The ***Response Page*** contains the same header and footer as the other web pages. Additionally, there is a response section under the header. Here is the message that the request has been received and is being processed.
 
-Sreenshots!!!!!!!!!!!
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+Contact
+<img src="assets/images/screenshot-contact.png" alt="Contact">
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
