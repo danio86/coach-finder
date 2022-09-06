@@ -123,6 +123,7 @@ Contact
 - Planned features: 
     - A sign up/login page leading to a profile page. Here you will be able to set up your profile. This is particularly important for coaches and sports club owners who want to market themselves
     - All specific sports pages that can be selected from the main sports page. Here, as a user, you will select a coach who is nearby and use the link to his profile to find out more about her/him.
+    - The map will show many destinations leading to the coaches' profiles.
 
 ## Testing 
 
