@@ -104,18 +104,25 @@ __The Send us a message section__
   - to submit the message, the has to type in an e-mail address. 
   - If it were a real website, the only way the company could reply was like that. If the user wants to delete his message or e-mail address, the Clear Form button can be clicked.
   - After sending the message, the user will receive confirmation that the message has arrived and is being processed. Since Coachfinder does not have a real server, the ***Code-Institute*** server was used as an example. Since no nice answer appears here, a *Receive Answer button* has been added. Clicking on this button demonstrates how feedback will look like in the future. If the company ever exists, this button will be deleted.
-  - The *Receive Answer button* leads to a **fourth web page** that can only be reached here. The ***Response Page*** contains the same header and footer as the other web pages. Additionally, there is a response section under the header. Here is the message that the request has been received and is being processed.
+  - The *Receive Answer button* leads to a **fourth web page (The Response Page)** that can only be reached here. 
 
 Contact
 <img src="assets/images/screenshot-contact.png" alt="Contact">
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+### The Response Page
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - The Response Page contains the same header and footer as the other web pages. Additionally, there is a response section under the header. Here is the message that the request has been received and is being processed.
+
+  Response
+<img src="assets/images/screenshot-response.png" alt="Response">
+
+
 
 ### Features Left to Implement
 
-- Another feature idea
+- Planned features: 
+    - A sign up/login page leading to a profile page. Here you will be able to set up your profile. This is particularly important for coaches and sports club owners who want to market themselves
+    - All specific sports pages that can be selected from the main sports page. Here, as a user, you will select a coach who is nearby and use the link to his profile to find out more about her/him.
 
 ## Testing 
 
