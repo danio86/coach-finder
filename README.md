@@ -2,9 +2,8 @@
 
 Coachfinder is a website that enables people from all over the world to practice their favorite sport. The site is aimed at people with personal sporting interests and coaches who want to pass on their knowledge and promote their careers. In addition, sports providers such as fitness or yoga club operators should also be addressed. 
 
-![Responsice Mockup](**https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png**)
-Screenshot mit different screensices!
-den mache ich hier: http://ami.responsivedesign.is/
+- Responsice Mockup
+<img src="assets/images/screenshot-media-query.png" alt="Responsice Mockup">
 
 ## Features 
 
@@ -23,7 +22,7 @@ den mache ich hier: http://ami.responsivedesign.is/
   - The basic code of the dropdown menu is taken from the following website, but has been changed a lot.
     - https://www.w3schools.com/howto/howto_css_dropdown.asp
 
-Nav Bar
+- Nav Bar
 <img src="assets/images/Screenshot top-menu.png" alt="Nav Bar">
 <img src="assets/images/top-menu + dropdown.png" alt="Nav Bar + Dropdown">
 
@@ -33,7 +32,8 @@ Nav Bar
   - The landing contains a photo with logo overlay. The section is scaled the same on each of the three web pages but contains different images
   - This section aims to motivate the user to use Coachfinder.
 
-Landing Page image
+- Landing Page image
+
 <img src="assets/images/mountain-paar-bearbeitet2.jpg" alt="Landing Page" height="50%" width="50%">
 
 - __The Footer__ 
@@ -43,7 +43,7 @@ Landing Page image
   - The footer is valuable to the user as it encourages them to keep connected via social media
   - The footer idea and basic code is taken form the **Code-Institute Love-Running-Project** but has been slightly modified.
 
-Footer
+- Footer
 <img src="assets/images/screenshot-footer.png" alt="Footer">
 
 ### The Homepage
@@ -62,7 +62,7 @@ Footer
     - https://www.youtube.com/watch?v=0wvrlOyGlq0
   - The slide show will convey positive impressions about Coachfinder and motivate the user to use Coachfinder.
 
-Slogan and Slideshow
+- Slogan and Slideshow
 <img src="assets/images/screenshot-slogan-slideshow.png" alt="Slogan-Slideshow">
 
   - __Map section__
@@ -72,7 +72,7 @@ Slogan and Slideshow
     - Since the website doesn't actually exist and no coaches are registered, only an example destination in Ireland appears. In the future, however, numerous trainers should be able to be found when scrolling and zooming through the **_google maps_** map. These can then be clicked on, which will take you to their Coachfinder profile. In this profile, the trainers will be able to advertise themselves.
     - This section will be updated as new choaches sign in. 
 
-Map
+- Map
 <img src="assets/images/screenshot-map2.png" alt="Map">
 
 
@@ -86,9 +86,9 @@ Map
   - The sports categories lead to specific sports via the drop-down menu. These are links and may be clicked in the future. Numerous coaches and sports clubs will then be displayed on the following web pages. Here the users must then also announce their location in order to narrow down the selection. Since there are many more sports and no real coaches are registered and numerous follow-up web pages would be necessary, the links on this exercise website do not work. 
 
 
-Sport-Dropdown
+- Sport-Dropdown
 <img src="assets/images/screenshot-sport-selector.png" alt="Sport-Dropdown">
-Sport-Dropdown-extended 
+- Sport-Dropdown-extended 
 <img src="assets/images/screenshot-sport-selector2.png" alt="Sport-Dropdown">
 
 - __The Map section__
@@ -106,14 +106,14 @@ __The Send us a message section__
   - After sending the message, the user will receive confirmation that the message has arrived and is being processed. Since Coachfinder does not have a real server, the ***Code-Institute*** server was used as an example. Since no nice answer appears here, a *Receive Answer button* has been added. Clicking on this button demonstrates how feedback will look like in the future. If the company ever exists, this button will be deleted.
   - The *Receive Answer button* leads to a **fourth web page (The Response Page)** that can only be reached here. 
 
-Contact
+- Contact
 <img src="assets/images/screenshot-contact.png" alt="Contact">
 
 ### The Response Page
 
   - The Response Page contains the same header and footer as the other web pages. Additionally, there is a response section under the header. Here is the message that the request has been received and is being processed.
 
-  Response
+- Response
 <img src="assets/images/screenshot-response.png" alt="Response">
 
 
@@ -125,38 +125,68 @@ Contact
     - All specific sports pages that can be selected from the main sports page. Here, as a user, you will select a coach who is nearby and use the link to his profile to find out more about her/him.
     - The map will show many destinations leading to the coaches' profiles.
 
+
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- I have tested that the website works in different browsers (Chrome and Firefox).
+- I confirm that the website works and looks good on all standard screen sizes. This was tested with the devtools divice toolbar.
+- I certify that the header, navigation, sport, contact and response text is easy to read and understand.
+- I confirm that the form in the contact page is working. An e-mail address must be entered in order to receive a reply.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Validator Testing
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+  - HTML
+      - No errors were returned when passing through the official W3C validator.
+      - All web pages have been tested.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+  - CSS
+      - No errors were found when passing through the official (Jigsaw) validator.
+
+  - Accessibility
+      - I confirm that the colors and fonts selected are easy to read and accessible. This was discovered using lighthouse in devtools.
+      - All web pages have been tested for desktop and mobil devices.
+
+- HTML Validation
+<img src="assets/images/screenshot-html-validator.png" alt="HTML Validation">
+
+- CSS Validation
+<img src="assets/images/screenshot-css-validator-english.png" alt="CSS Validation">
+
+- Lighthouse-Desktop
+
+<img src="assets/images/screenshot-lighthouse.png" alt="Lighthouse Desktop">
+
+- Lighthouse-Mobil
+
+<img src="assets/images/screenshot-lighthouse-mobil.png" alt="Lighthouse Mobil">
 
 
-### Validator Testing 
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+
+    The site was deployed to GitHub pages. The steps to deploy are as follows:
+        In the GitHub repository, navigate to the Settings tab
+        From the source section drop-down menu, select the Master Branch
+        Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+No Bugs are unfixed.
+
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
+  - In menu on the left side, select pages
+  - Scrool down to Branch and select main
+  - push the Save button
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://danio86.github.io/coach-finder/index.html
 
 
 ## Credits 
