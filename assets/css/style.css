@@ -110,13 +110,14 @@ header {
     color: whitesmoke;
     z-index: 2;
     font-size: 80%;
+    margin-top: -20px;
 /*     color: whitesmoke;
     background-color: rgba(37, 37, 37, .7);
     min-width: 137px;
     height: fit-content;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     
-    margin-top: -20px;
+    
      */
   }
 
@@ -201,7 +202,7 @@ header {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    margin: 40px 50px;
+    /* margin: 40px 50px; */
     padding: 0;
     justify-content: center;
     float: right;
@@ -210,7 +211,7 @@ header {
   
   .menu2 > li {
     margin: 0 1rem;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .menu2 a {
@@ -863,6 +864,7 @@ footer i {
         font-size: 100%;
         line-height: 0;
         color: whitesmoke;
+        margin-top: -5px;
      }
 
     #menu ul {
@@ -875,11 +877,16 @@ footer i {
     }
 
     .dropdown-content {
-        margin-top: unset;
+        margin-top: 3px;
     }
 
     .dr-content {
         padding-top: 10px;
+    }
+
+    .dr-content:hover {
+        border: unset;
+        border-bottom: 1px solid whitesmoke;
     }
 
     .dropbtn {
@@ -889,7 +896,7 @@ footer i {
 
     .menu2 {
         float:unset;
-        margin: 10px 15px;
+        /* margin: 10px 15px; */
         font-size: unset;
     }
 
