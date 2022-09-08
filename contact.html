@@ -16,15 +16,15 @@
             <h1 id="logo">Coach Finder</h1>  
             <p>sport connects</p>
         </a>
-        
         </div>
-        <nav id="menu">
-            <ul>
+
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+            <ul class="menu2" id="menu">
                 <li>
-                    <a href="login.html"><i class="fa-solid fa-user"></i> Login</a>
-                </li>
-                <li>
-                    <a href="contact.html" class="active"><i class="fa-solid fa-envelope"></i> Contact</a>
+                    <a href="index.html"><i class="fa-solid fa-house" style="width: 10px;"></i> Home</a>
                 </li>
                 <li>
                     <!--Dropdown-start-->
@@ -59,13 +59,15 @@
                         </div>
                         </div>
                     </div> 
-<!--************************* Dropdown-end *************************-->
+<!--****************************Dropdown-end********************************-->
                 </li>
                 <li>
-                    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                    <a href="contact.html" class="active"><i class="fa-solid fa-envelope" style="width: 10px;"></i> Contact</a>
+                </li>
+                <li>
+                    <a href="login.html"><i class="fa-solid fa-user" style="width: 10px;"></i> Login</a>
                 </li>
             </ul>
-        </nav>
     </header>
 
 <!--*************************section1 start-image-start*************************-->

@@ -1068,10 +1068,10 @@ footer i {
         margin-right: unset;
     } */
 
-    .active {
+    /* .active {
         border-bottom: none;
         border-left: 1px solid whitesmoke;
-    }
+    } */
 
     .dropdown:hover .dropbtn {
         border-bottom: none

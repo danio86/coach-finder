@@ -16,24 +16,58 @@
             <h1 id="logo">Coach Finder</h1>  
             <p>sport connects</p>
         </a>
-        
         </div>
-        <nav id="menu">
-            <ul>
+
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+            <ul class="menu2" id="menu">
                 <li>
-                    <a href="login.html"><i class="fa-solid fa-user" style="width: 10px;"></i> Login</a>
+                    <a href="index.html"><i class="fa-solid fa-house" style="width: 10px;"></i> Home</a>
+                </li>
+                <li>
+                    <!--Dropdown-start-->
+                    <div class="dropdown">
+                        <!-- <button class="dropbtn"> -->
+                            <a class="dropbtn active" href="sport.html"><i class="fa-solid fa-magnifying-glass" style="width: 10px;"></i> Sport</a>
+                        <!-- </button> -->
+                        <div class="dropdown-content">
+                        <div class="dr-content">
+                          <a href="#">Ball sports</a>
+                        </div>
+                        <div class="dr-content">
+                        <a href="#">Dancing</a>
+                        </div>
+                        <div class="dr-content">
+                          <a href="#">Endurance</a>
+                        </div>
+                        <div class="dr-content">
+                          <a href="#">Fitness</a>
+                        </div>
+                        <div class="dr-content">
+                          <a href="#">Gymnastics</a>
+                        </div>
+                        <div class="dr-content">
+                          <a href="#">Martial Arts</a>
+                        </div>
+                        <div class="dr-content">
+                          <a href="#">Outdoor-Adventure</a>
+                        </div>
+                        <div class="dr-content">
+                          <a href="#">Relaxation</a>
+                        </div>
+                        </div>
+                    </div> 
+<!--****************************Dropdown-end********************************-->
                 </li>
                 <li>
                     <a href="contact.html"><i class="fa-solid fa-envelope" style="width: 10px;"></i> Contact</a>
                 </li>
                 <li>
-                    <a href="sport.html" class="active onlyhere"><i class="fa-solid fa-magnifying-glass" style="width: 10px;"></i> Sport</a>
-                </li>
-                <li>
-                    <a href="index.html"><i class="fa-solid fa-house" style="width: 10px;"></i> Home</a>
+                    <a href="login.html"><i class="fa-solid fa-user" style="width: 10px;"></i> Login</a>
                 </li>
             </ul>
-        </nav>
     </header>
 
 <!--******************section1 start-image-start******************-->
