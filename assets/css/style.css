@@ -792,6 +792,88 @@ footer i {
 /**************************contact.html end***************************/
 
 
+/**************************login.html start***************************/
+
+/**************************section2 signup form start***************************/
+.signup {
+    clear: left;
+    background: url("../images/bike-gca785d82e_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form {
+    /* margin: 150px 10% 0 0; */
+    color: whitesmoke;
+    background-color: rgb(37, 37, 37, 0.7);
+    /* max-width: 400px; */
+    position: absolute;
+    /* left: 10%; */
+    padding: 30px;
+    margin: 0 400px;
+}
+
+.signup-form h1 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.password1 {
+    width: 100%;
+    border-radius: 2px;
+    height: 25px;
+    margin-top: 3px;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+.password1:hover {
+    border: 1px solid aqua;
+}
+
+.text-input {
+    background: transparent;
+    color: whitesmoke;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: aqua;
+}
+    
+.join-button {
+    margin: 20px 50px 0 0;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 110%;
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
+    display: block;
+    float: left;
+    text-decoration: none;
+    letter-spacing: inherit;
+}
+
+.join-button:hover {
+    background-color: whitesmoke;
+    color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+
+
+/**************************section2 signup form end***************************/
+
+/**************************login.html end***************************/
+
+
 /**************************answer.html start***************************/
 
 /*************************section1-image start********************************/
@@ -904,9 +986,6 @@ footer i {
         color: whitesmoke;
         }
 
-    /************main image************/
-
-    /************main image************/
 
     #slider {
         height: fit-content;
@@ -958,6 +1037,10 @@ footer i {
         overflow: hidden; */
         float: unset;
         
+    }
+
+    .signup-form {
+        margin: unset;
     }
 }
 /************************MQ until 950px***********************************/
