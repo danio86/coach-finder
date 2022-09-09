@@ -804,6 +804,7 @@ footer i {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 
 .signup-form {
@@ -868,6 +869,21 @@ footer i {
     cursor: pointer;
 }
 
+/* #radio-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+} */
+
+.radio {
+    margin: 0 -14px 3px auto;
+letter-spacing: 3px;
+}
+
+/* .radio:hover {
+    border: 1px solid aqua;
+} */
 
 /**************************section2 signup form end***************************/
 
@@ -1265,5 +1281,36 @@ footer i {
   
     .menu2 > li:not(:last-child) {
       border-bottom: 1px solid #444;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .signup-form {
+        width: 100%;
+    }
+
+    #signup-heading {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 120%;
+    }
+
+    #signup-heading h2 {
+        font-size: 110%;
+        margin: 10px auto;
+    }
+
+    #form-signup {
+        text-align: center;
+    }
+
+    .text-input {
+        width: 80%;
+    }
+
+    .radio {
+        margin: 0px -14px 5px auto;
+        display: inline-block;
     }
   }
