@@ -878,7 +878,7 @@ footer i {
 
 .radio {
     margin: 0 -14px 3px auto;
-letter-spacing: 3px;
+    letter-spacing: 3px;
 }
 
 /* .radio:hover {
@@ -940,6 +940,36 @@ letter-spacing: 3px;
 }
 
 /**************************thx.html end***************************/
+
+/**************************css specific sport.html start***************************/
+#coach-selection {
+    background-color: rgb(37, 37, 37, 0.7);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(37, 37, 37, 0.7);
+    padding: 10px;
+    gap: 20px 10px;
+  }
+  .grid-item {
+    background-color: whitesmoke;
+    border: 1px solid rgb(37, 37, 37);
+    padding: 20px;
+    font-size: 100%;
+    letter-spacing: 3px;
+  }
+
+  .grid-item a {
+    color: rgb(37, 37, 37);
+  }
+
+  .specific-coach {
+    float: right;
+    width: 20%;
+  }
+/**************************css specific sport.html end***************************/
 
 
 /*Media queries*/
