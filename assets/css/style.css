@@ -111,14 +111,6 @@ header {
     z-index: 2;
     font-size: 80%;
     margin-top: -20px;
-/*     color: whitesmoke;
-    background-color: rgba(37, 37, 37, .7);
-    min-width: 137px;
-    height: fit-content;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
-    
-     */
   }
 
   .dr-content {
@@ -154,49 +146,23 @@ header {
     text-align: left; */
   } 
 
-/* .dropdown-content a:hover {
-    color: whitesmoke !important;
-    background-color: rgb(37, 37, 37, 0.7); 
-} */
-
-/* .dr-content a:hover {
-    color: whitesmoke !important;
-    background-color: rgb(37, 37, 37, 0.7);
-} */
-
-/* .dr-content:hover {
-    background-color: whitesmoke;
-    color: rgb(37, 37, 37);
-} */
-
-/* .dropdown-content:hover {
-    background-color: whitesmoke;
-    color: rgb(37, 37, 37);
-} */
-  
-/* .dropdown:hover .dr-content {
-    display: block;
-} */
-
   .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/*********************test header start*************************/
-
-.top-nav {
+/* .top-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: #00BAF0;
     background: linear-gradient(to left, #f46b45, #eea849);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #FFF;
+    /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+    /*color: #FFF;
     height: 50px;
     padding: 1em;
     margin-top: 200px;
-  }
+  } */
 
 .menu2 {
     display: flex;
@@ -249,7 +215,7 @@ header {
   .menu-button::before,
   .menu-button::after {
     display: block;
-    background-color: #fff;
+    background-color: whitesmoke;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -273,7 +239,8 @@ header {
   }
   
   #menu-toggle:checked + .menu-button-container .menu-button {
-    background: rgba(255, 255, 255, 0);
+    /* background: rgba(255, 255, 255, 0); */
+    background: rgb(37, 37, 37);
   }
   
   #menu-toggle:checked + .menu-button-container .menu-button::after {
@@ -308,6 +275,23 @@ header {
     max-width: 100%;
     height: auto;
     margin-bottom: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cover-text-laning-img {
+    position: absolute;
+    top: 250px;
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
+    margin: 0 300px;
+    text-align: center;
+    padding: 10px 25px;
 }
 
 /**********section1: start img end********/
@@ -316,8 +300,10 @@ header {
 /**********section2 - slide-show-+-slogan*************/
 #slider {
     margin: 0;
-    padding: 0;
-    height: 600px;
+    /* padding: 0;
+    height: 600px; */
+    padding-top: 50px;
+    height: 550px;
     /* height: 100vh; */
     /* display: flex;
     justify-content: center; */
@@ -1062,6 +1048,13 @@ footer i {
         color: whitesmoke;
         }
 
+    #cover-text-laning-img {
+        top: 125px;
+        font-size: 150%;
+        width: 80%;
+        margin: unset;
+    }
+
 
     #slider {
         height: fit-content;
@@ -1129,6 +1122,11 @@ footer i {
 }
 /************************MQ until 950px***********************************/
 @media screen and (max-width: 950px) {
+    #cover-text-laning-img {
+        margin: unset;
+        top: 110px;
+    }
+
     #cover-text {
         top: 250px;
         left: 0;
@@ -1266,6 +1264,12 @@ footer i {
         display: none;
     }
 
+    #cover-text-laning-img {
+        font-size: 80%;
+        /* margin-left: 50px; */
+        width: 100%;
+    }
+
     #h1-slider {
         margin-bottom: 15px;
     }
@@ -1382,6 +1386,12 @@ footer i {
 }
 /********************************MQ 500px************************************************/
   @media (max-width: 500px) {
+    #cover-text-laning-img {
+        margin-left: unset;
+        width: 80%;
+        top: 105px;
+    }
+
     .sport-btn span {
         float: right;
         padding-right: 10px;
