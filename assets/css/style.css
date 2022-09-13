@@ -643,6 +643,7 @@ footer i {
     background-color: rgb(37, 37, 37, 0.7);
     color: whitesmoke;
     margin-top: 24px;
+    overflow: hidden;
 }
 
 .ball-content a {
@@ -944,12 +945,14 @@ footer i {
 /**************************css specific sport.html start***************************/
 #coach-selection {
     background-color: rgb(37, 37, 37, 0.7);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 150%;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: rgb(37, 37, 37, 0.7);
     padding: 10px;
     gap: 20px 10px;
   }
@@ -957,8 +960,10 @@ footer i {
     background-color: whitesmoke;
     border: 1px solid rgb(37, 37, 37);
     padding: 20px;
-    font-size: 100%;
+    font-size: 80%;
     letter-spacing: 3px;
+    color: rgb(37, 37, 37);
+    text-align: left;
   }
 
   .grid-item a {
@@ -1300,6 +1305,14 @@ footer i {
         display:contents
     }
 
+    #coach-selection {
+        font-size: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
 }
 /***************Menu2*******************/
 @media (max-width: 750px) {
@@ -1406,4 +1419,13 @@ footer i {
   .thx-img {
     margin-top: 100px;
   }
+}
+
+/********************************MQ 290px************************************************/
+@media (max-width: 290px) {
+    .sport-btn {
+        font-size: unset;
+        margin-left: -30px;
+    }
+
 }
