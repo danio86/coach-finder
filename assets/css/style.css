@@ -640,7 +640,7 @@ footer i {
 
 .ball-content {
     display: none;
-    background-color: rgb(37, 37, 37, 0.7);
+    background-color: rgb(37, 37, 37);
     color: whitesmoke;
     margin-top: 24px;
     overflow: hidden;
