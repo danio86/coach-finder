@@ -655,7 +655,7 @@ footer i {
 }
 
 .ball-content:hover {
-    background-color: rgb(37, 37, 37, 0.7);
+    background-color: rgb(37, 37, 37);
     color: whitesmoke;
 }
   
@@ -1373,6 +1373,22 @@ footer i {
 }
 /********************************MQ 500px************************************************/
   @media (max-width: 500px) {
+    .sport-btn span {
+        float: right;
+        padding-right: 10px;
+    }
+
+    #contact-info {
+        padding: 25px;
+        font-size: x-small;
+    }
+
+    #cover-text-contact {
+        top: 250px;
+        left: 0;
+        font-size: 50%;
+    }
+
     .signup-form {
         width: 100%;
     }
@@ -1402,6 +1418,10 @@ footer i {
         width: 80%;
     }
 
+    .password1 {
+        width: 80%;
+    }
+
     .radio {
         margin: 0px -14px 5px auto;
         display: inline-block;
@@ -1424,16 +1444,39 @@ footer i {
     padding-left: 10px;
     font-size: 90%;
 }
-
-.sport-btn span {
-    float: right;
-    padding-right: 10px;
+  }
 
 /********************************MQ 290px************************************************/
 @media (max-width: 290px) {
+
+    #logo-background {
+        margin: 20px 5px;
+    }
+
+    .menu-button-container {
+        margin-right: 5px;
+    }
+
     .sport-btn {
         font-size: unset;
         margin-left: -30px;
+    }
+
+    #cover-text-contact {
+        font-size: 40%;
+        top: 230px;
+    }
+
+    #signup-heading h2 {
+        font-size: 80%;
+    }
+
+    .signup-form h1 {
+        font-size: 130%;
+    }
+
+    .center-vertical {
+        padding-left: 50px;
     }
 
 }
