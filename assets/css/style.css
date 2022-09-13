@@ -1226,6 +1226,11 @@ footer i {
         margin-top: 1px;
     }
 
+    #menu a:hover {
+        color: aqua;
+    }
+      
+
     .dropbtn {
         display: block;
         width: 750px;
@@ -1257,7 +1262,7 @@ footer i {
         border-bottom: none
       }
 
-      .dropdown:hover .dropdown-content {
+    .dropdown:hover .dropdown-content {
         display: none;
     }
 
@@ -1313,8 +1318,12 @@ footer i {
         grid-template-columns: auto;
     }
 
+    .specific-img {
+        margin-top: 100px;
+    }
+
 }
-/***************Menu2*******************/
+/***************Menu-2-Burger*******************/
 @media (max-width: 750px) {
     .menu-button-container {
         display: flex;
@@ -1478,5 +1487,9 @@ footer i {
     .center-vertical {
         padding-left: 50px;
     }
+
+    #coach-selection {
+        font-size: 62%;
+      }
 
 }
