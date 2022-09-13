@@ -1419,7 +1419,15 @@ footer i {
   .thx-img {
     margin-top: 100px;
   }
+
+  .center-vertical {
+    padding-left: 10px;
+    font-size: 90%;
 }
+
+.sport-btn span {
+    float: right;
+    padding-right: 10px;
 
 /********************************MQ 290px************************************************/
 @media (max-width: 290px) {
