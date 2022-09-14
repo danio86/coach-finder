@@ -16,20 +16,26 @@ Coachfinder is a website that enables people from all over the world to practice
 - __Navigation Bar__
 
   - This section allows the user to easily navigate from page to page on all devices without having to use the back button to    go back to the previous page.
-  - The fully responsive navigation bar found on all three pages contains links to the home page, sports page and contact page. It also contains a link to the login page, which is not yet working. The website will be expanded in the future. The navigation bar is identical on each page and contains the auto-popping drop-down menu and the sports page link. The sports page is missing this drop-down menu.
-  - The drop-down menu contains links to the subcategories of the sports page. These links are not working yet, but will be expanded in the future.
+  - The fully responsive navigation bar found on all three pages contains links to the home page, sports page and contact page. It also contains a link to the login page, which is not yet working. The website will be expanded in the future. The navigation bar is identical on each page and contains the auto-popping drop-down menu and the sports page link.
+  - The drop-down menu contains links to the subcategories of the sports page. These links lead to a sports category page. Because there are far too many sports categories and only three pages to create, there is only one sample sports category page in this practice website. The other sports category pages will be created in the future.
   The dropdown menu appears when the mouse pointer is over the sport button.
   - The basic code of the dropdown menu is taken from the following website, but has been changed a lot.
     - https://www.w3schools.com/howto/howto_css_dropdown.asp
+  - Up to a screen size of 750px the dropdown menu appears as a clickable burger button menu.
+  - The basic code of the clickable burger button menu is taken from the following website, but has been changed a lot.
+    - https://alvarotrigo.com/blog/hamburger-menu-css/
 
 - Nav Bar
 <img src="assets/images/Screenshot top-menu.png" alt="Nav Bar">
 <img src="assets/images/top-menu + dropdown.png" alt="Nav Bar + Dropdown">
 
+- Hamburger Menu
+
 
 - __The landing page image__
 
   - The landing contains a photo with logo overlay. The section is scaled the same on each of the three web pages but contains different images
+  - The landing page title is inside the landing image.
   - This section aims to motivate the user to use Coachfinder.
 
 - Landing Page image
@@ -83,7 +89,7 @@ Coachfinder is a website that enables people from all over the world to practice
   - The gallersectiony will provide the user with sport categories to choose. 
   - This section is valuable to the user as they will be able to easily find the type of sport they want to train.
   - This section contains a dropdown menu that appears when the user mouses over an item. The elements following below are shifted down. The basic code has a similar structure to the drop-down menu in the header, but has been adapted to current needs.
-  - The sports categories lead to specific sports via the drop-down menu. These are links and may be clicked in the future. Numerous coaches and sports clubs will then be displayed on the following web pages. Here the users must then also announce their location in order to narrow down the selection. Since there are many more sports and no real coaches are registered and numerous follow-up web pages would be necessary, the links on this exercise website do not work. 
+  - The sports categories lead to specific sports via the drop-down menu. These are links and may be clicked in the future. Numerous coaches and sports clubs will then be displayed on the following web pages. Here the users must then also announce their location in order to narrow down the selection. Since there are many more sports and no real coaches are registered and numerous follow-up web pages would be necessary, the links lead to a specific sport example page. Because there are far too many sports and only three pages to create, there is only one sample page in this practice website. The other specific sport pages will be created in the future. 
 
 
 - Sport-Dropdown
@@ -116,14 +122,40 @@ __The Send us a message section__
 - Response
 <img src="assets/images/screenshot-response.png" alt="Response">
 
+### The Login Page
 
+  - This page will allow the user to log in to coachfinder. If the user has not yet registered, he can do so here. No user can log in without having registered. After klicking the sign up button oder the login butten, without beeing registered, the user comes to the signup page.
+
+### The Sign Up Pages
+
+  - There are two Sign Up pages with different headings. To the first one the user comes by clicking the Sign Up button, to the other page the user comes by trying to log in without being registered first. Other than that, both sides are the same. The user can register here. All fields are mandatory.
+  - A few lines of javascript were used for the repeat-password field. The basic code for this is taken from the following website.
+    - https://codepen.io/diegoleme/pen/qBpyvr
+
+### The Thank You Page
+
+  - The Thank You (thx) page contains a landing image with a message inside. In it, the company Coachfinder thanks the user for registering it. In the future, the user will now receive an email in which he must click a confirmation link. This will lead him to a Coachfinder profile page. In the future he can then set up his profile. This page will be created in the future.
+
+### The Sport Category Page
+
+  - The Sport Category page contains a landing image and a dropdown menu below. It is the same dropdown menu like the spors page. But only the sport category that the user clicked appears. Because there are far too many sports categories and only three pages to create, there is only one sample sports category page in this practice website. The other sports category pages will be created in the future.
+  - The dropdown menu contains links to a specific sport page. Because there are far too many sports and only three pages to create, there is only one sample page in this practice website. The other specific sport pages will be created in the future.
+
+### The Specific Sport Page 
+
+  - The Specific Sport Page contains a list of coaches to choose. 
+  - Here the user finds all the information he needs to decide on a trainer. This coach can then be contacted directly.
+  - In the future you will find here a selection selected by location. The location is taken from the profile but can be changed here temporarily (travel situation). There will also be the option of contacting the coach via a chat function.
 
 ### Features Left to Implement
 
 - Planned features: 
-    - A sign up/login page leading to a profile page. Here you will be able to set up your profile. This is particularly important for coaches and sports club owners who want to market themselves
-    - All specific sports pages that can be selected from the main sports page. Here, as a user, you will select a coach who is nearby and use the link to his profile to find out more about her/him.
+    - A Profile page. Here you will be able to set up your profile. This is particularly important for coaches and sports club owners who want to market themselves. 
+    - All sport category and all specific sports pages that can be selected from the main sports page. Here, as a user, you will select a coach who is nearby and use the link to further information about her/him.
+    - A chat function will be added to the specific sport page to contact the coach directly.
+    - A location selector will be added to the specific sport page.
     - The map will show many destinations leading to the coaches' profiles.
+
 
 
 ## Testing 
@@ -162,22 +194,12 @@ __The Send us a message section__
 
 
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
-
-    The site was deployed to GitHub pages. The steps to deploy are as follows:
-        In the GitHub repository, navigate to the Settings tab
-        From the source section drop-down menu, select the Master Branch
-        Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
-
-
 ### Unfixed Bugs
 
 No Bugs are unfixed.
 
 
-## Deployment
+### Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
