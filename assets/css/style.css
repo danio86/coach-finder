@@ -1403,7 +1403,7 @@ footer i {
     }
 
     #cover-text-contact {
-        top: 250px;
+        top: 225px;
         left: 0;
         font-size: 50%;
     }
@@ -1453,16 +1453,16 @@ footer i {
         height: unset;
         /* height: 130px; */
         padding: 20px;
-  }
+    }
 
-  .thx-img {
-    margin-top: 100px;
-  }
+    .thx-img {
+        margin-top: 100px;
+    }
 
-  .center-vertical {
-    padding-left: 10px;
-    font-size: 90%;
-}
+    .center-vertical {
+        padding-left: 10px;
+        font-size: 90%;
+    }
   }
 
 /********************************MQ 290px************************************************/
@@ -1495,11 +1495,17 @@ footer i {
     }
 
     .center-vertical {
-        padding-left: 50px;
+        padding-left: 45px;
+        font-size: 70%;
     }
 
     #coach-selection {
         font-size: 62%;
-      }
+    }
+
+    .join-button {
+        padding-left: 10px;
+
+    }
 
 }
