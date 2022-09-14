@@ -1113,11 +1113,11 @@ footer i {
     }
 
     #thank-you-text {
-        top: 0%;
+        /* top: 0%;
         position: relative;
         display: block;
-        margin: auto;
-        margin-top: -5px;
+        margin: auto; */
+        margin-top: -55px;
 }
 }
 /************************MQ until 950px***********************************/
@@ -1166,8 +1166,12 @@ footer i {
     }
 
     #thank-you-text {
-        height: 120px;
-        padding: 25px;
+        /* height: 120px;
+        padding: 25px; */
+        top: 350px;
+        /* display: inline-grid; */
+        width: 90%;
+        font-size: 80%;
     }
 
 }
@@ -1379,9 +1383,11 @@ footer i {
 
     #thank-you-text {
         /* height: 250px; */
-        padding: 45px 50px;
+        /* padding: 45px 50px; */
         justify-content: center;
         display: grid;
+        top: 300px;
+        font-size: 70%;
 }
 }
 /********************************MQ 500px************************************************/
@@ -1453,6 +1459,11 @@ footer i {
         height: unset;
         /* height: 130px; */
         padding: 20px;
+        justify-content: center;
+        font-size: 40%;
+        padding: 5px;
+        top: 290px;
+        width: 100%;
     }
 
     .thx-img {
@@ -1505,7 +1516,10 @@ footer i {
 
     .join-button {
         padding-left: 10px;
+    }
 
+    #thank-you-text {
+        top: 250px;
     }
 
 }
