@@ -930,11 +930,15 @@ footer i {
 
 /**************************css specific sport.html start***************************/
 #coach-selection {
-    background-color: rgb(37, 37, 37, 0.7);
+    background-color: rgb(37, 37, 37);
     text-align: center;
     color: whitesmoke;
     font-size: 150%;
-}
+ }
+
+#coach-selection h1 {
+    padding: 25px 0 10px 0;
+ }
 
 .grid-container {
     display: grid;
@@ -961,6 +965,53 @@ footer i {
     width: 20%;
   }
 /**************************css specific sport.html end***************************/
+
+/**************************sport-category-start**********************************/
+  .sports-category-dropdown-backgroung {
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    /* margin-bottom: 25px; */
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 6px;
+  }
+
+  .ball-content-specific-sport {
+    display: none;
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
+    margin-top: 24px;
+    /* overflow: hidden; */
+  }
+
+  .ball-content-specific-sport a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    padding: 3px 50px;
+    border: 1px solid rgb(37, 37, 37);
+ }
+
+.ball-content-specific-sport:hover {
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
+ }
+  
+.ball-content-specific-sport a:hover {
+    background-color: whitesmoke; 
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+ }
+
+.sports-category-dropdown-backgroung:hover {
+    background-color: azure;
+ }
+
+.sports-category-dropdown-backgroung:hover .ball-content-specific-sport {
+    display: block;
+ }
+/**************************sport-category-end************************************/
 
 
 /*Media queries*/
@@ -1520,6 +1571,10 @@ footer i {
 
     #thank-you-text {
         top: 250px;
+    }
+
+    .ball-content-specific-sport{
+        font-size: 70%;
     }
 
 }
