@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Roboto Mono, sans-serif;
+    font-family: "Roboto Mono", sans-serif;
     font-weight: 300;
     letter-spacing: 5px;
     
@@ -620,7 +620,7 @@ footer i {
     text-decoration: none;
     font-family: inherit;
     font-size: 120%;
-    font-family: Roboto Mono;
+    font-family: "Roboto Mono";
     color: rgb(37, 37, 37);
 }
 
@@ -680,7 +680,7 @@ footer i {
 #message {
     height: 600px;
     background-color: whitesmoke;
-    color: whitesmoke;
+    /* color: whitesmoke; */
 }
 
 #message h1 {
