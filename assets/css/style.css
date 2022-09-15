@@ -899,6 +899,9 @@ footer i {
     text-align: center;
     padding: 50px;
     font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /**********************************section2 send us a message end************************/
@@ -1497,6 +1500,11 @@ footer i {
         top: 225px;
         left: 0;
         font-size: 50%;
+    }
+
+    #answer {
+        font-size: 120%;
+        padding: 25px;
     }
 
     .signup-form {
