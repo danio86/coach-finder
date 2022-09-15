@@ -31,6 +31,8 @@ Coachfinder is a website that enables people from all over the world to practice
 
 - Hamburger Menu
 
+<img src="assets/images/screenshot-burger.png" alt="Burger">
+<img src="assets/images/screenshot-burger-dropdown.png" alt="Burger + Dropdown">
 
 - __The landing page image__
 
@@ -40,7 +42,7 @@ Coachfinder is a website that enables people from all over the world to practice
 
 - Landing Page image
 
-<img src="assets/images/mountain-paar-bearbeitet2.jpg" alt="Landing Page" height="50%" width="50%">
+<img src="assets/images/screeshot-mountain-paar.png" alt="Landing Page" height="50%" width="50%">
 
 - __The Footer__ 
 
