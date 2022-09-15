@@ -880,11 +880,13 @@ footer i {
 /**************************answer.html start***************************/
 
 /*************************section1-image start********************************/
-#answer-image {
+/* #answer-image {
     height: 600px;
     width: 100%;
     background: url('../images/danzon-gc81717c6c_1920_bearbeitet.jpg') no-repeat center center;
-    position: relative}
+    position: relative
+} */
+
 
 /*************************section1-image end********************************/
 
@@ -1463,27 +1465,9 @@ footer i {
     .menu2 > li:not(:last-child) {
       border-bottom: 1px solid #444;
     }
+}
 /**************burger end***************/
 
-    #thank-you-text {
-        /* height: 250px; */
-        /* padding: 45px 50px; */
-        /* justify-content: center;
-        display: grid;
-        top: 300px;
-        font-size: 70%; */
-        /* margin: unset;
-        margin-top: unset;
-        top: unset;
-        position: relative;
-        margin-top: 5px;
-        border-radius: inherit;
-        padding: 25px;
-        background-color: rgb(37, 37, 37);
-        border-bottom: 1px solid whitesmoke;
-        border-top: 1px solid whitesmoke; */
-    }
-}
 /********************************MQ 500px************************************************/
   @media (max-width: 500px) {
     #cover-text-laning-img {
