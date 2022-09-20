@@ -698,7 +698,7 @@ footer i {
 #contact-info {
     background-color: rgb(37, 37, 37);
     padding: 50px;
-    /* margin-top: 10px; */
+    margin-top: -2px;
     color: whitesmoke;
 }
 
