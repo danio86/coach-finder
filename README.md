@@ -226,6 +226,9 @@ __The Send us a message section__
 - CSS Validation
 <img src="assets/images/screenshot-css-validator-english.png" alt="CSS Validation">
 
+- JavaScipt Validation
+<img src="assets/images/screenshot-jshint.png" alt="CSS JavaScipt">
+
 - Lighthouse-Desktop
 
 <img src="assets/images/screenshot-lighthouse.png" alt="Lighthouse Desktop">
