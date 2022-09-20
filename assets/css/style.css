@@ -940,6 +940,18 @@ a {
 /**************************css specific sport.html end***************************/
 
 /**************************sport-category-start**********************************/
+.sport-category-img {
+    clear: left;
+    background: url("../images/Kategoriebild-Ballsport.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
 #cover-text-sport-category {
     position: absolute;
     /*    top: 350px;
