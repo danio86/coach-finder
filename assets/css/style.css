@@ -820,39 +820,10 @@ a {
     cursor: pointer;
 }
 
-/* #radio-background {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25px;
-} */
-
 .radio {
     margin: 0 -14px 3px auto;
     letter-spacing: 3px;
 }
-
-/* .radio:hover {
-    border: 1px solid aqua;
-} */
-
-/**************************section2 signup form end***************************/
-
-/**************************login.html end***************************/
-
-
-/**************************answer.html start***************************/
-
-/*************************section1-image start********************************/
-/* #answer-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/danzon-gc81717c6c_1920_bearbeitet.jpg') no-repeat center center;
-    position: relative
-} */
-
-
-/*************************section1-image end********************************/
 
 /**********************************section2 send us a message start************************/
 
@@ -933,6 +904,7 @@ a {
     text-align: center;
     color: whitesmoke;
     font-size: 150%;
+    padding-top: 25px;
 }
 
 #coach-selection h1 {
