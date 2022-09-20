@@ -79,10 +79,6 @@ header {
 .active {
     border-bottom: 1px solid rgb(37, 37, 37);}
 
-
-/* #menu a:hover {
-    border-bottom: 1px solid rgb(37, 37, 37);
-} */
 #menu li:hover {
     border-bottom: 1px solid rgb(37, 37, 37);
 }
@@ -118,7 +114,6 @@ header {
     background-color: rgb(37, 37, 37, 0.7);
     color: whitesmoke;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     padding: 5px;
     overflow: hidden;
@@ -140,35 +135,16 @@ header {
   .dropdown-content a {
     float: none;
     color: whitesmoke;
-    /* padding: 5px;
-    text-decoration: none;
-    display: block;
-    text-align: left; */
   } 
 
   .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* .top-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #00BAF0;
-    background: linear-gradient(to left, #f46b45, #eea849);
-    /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
-    /*color: #FFF;
-    height: 50px;
-    padding: 1em;
-    margin-top: 200px;
-  } */
-
-.menu2 {
+  .menu2 {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    /* margin: 40px 50px; */
     padding: 0;
     justify-content: center;
     float: right;
@@ -177,25 +153,12 @@ header {
   
   .menu2 > li {
     margin: 0 1rem;
-    /* overflow: hidden; */
   }
   
   .menu2 a {
     color: rgb(37, 37, 37);
     text-decoration: none;
   }
-
- /*  .menu2 li:hover {
-    border-bottom: 1px solid rgb(37, 37, 37);
-  } */
-
- /*  .menu2 li:active {
-    border-bottom: 1px solid black;
-  } */
-
-  /* .active {
-    border-bottom: 1px solid black;
-  } */
 
   .menu-button-container {
     display: none;
@@ -239,7 +202,6 @@ header {
   }
   
   #menu-toggle:checked + .menu-button-container .menu-button {
-    /* background: rgba(255, 255, 255, 0); */
     background: rgb(37, 37, 37);
   }
   
@@ -248,27 +210,7 @@ header {
     transform: rotate(-405deg);
   }
 
-  
-/*********************test header end***************************/
-
 /***********css- dropdown-end**************/
-
-
-/**********section1: main picture start********/
-/* #pushup-wondow {
-    height: 600px;
-    width: 100%;
-    position: relative;
-    margin-bottom: auto;
-}
-
-#pushup-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/mountain-paar-bearbeitet.jpg') no-repeat center center;
-    position: relative
-} */
-/**********section1: main picture End********/
 
 /**********section1: start img start********/
 #start-img-index {
@@ -282,16 +224,18 @@ header {
 
 #cover-text-laning-img {
     position: absolute;
-    top: 250px;
+    top: 350px;
     font-size: 200%;
     text-transform: uppercase;
     letter-spacing: 3px;
     border-radius: 3px;
     background-color: rgb(37, 37, 37);
     color: whitesmoke;
-    margin: 0 300px;
+    margin: 0 100px;
     text-align: center;
     padding: 10px 25px;
+    right: 0px;
+    width: 450px;
 }
 
 /**********section1: start img end********/
@@ -753,8 +697,9 @@ footer i {
 
 #contact-info {
     background-color: rgb(37, 37, 37);
-    padding: 25px 50px;
-    margin-top: 10px;
+    padding: 50px;
+    /* margin-top: 10px; */
+    color: whitesmoke;
 }
 
 /**********************************section2 send us a message end************************/
@@ -1135,10 +1080,13 @@ footer i {
         }
 
     #cover-text-laning-img {
-        top: 125px;
+        top: 225px;
         font-size: 150%;
-        width: 80%;
-        margin: unset;
+        /* width: 80%;
+        margin: unset; */
+        margin: 0 25px;
+        padding: 15px 15px;
+        width: 350px;
     }
 
 
@@ -1209,10 +1157,10 @@ footer i {
 }
 /************************MQ until 950px***********************************/
 @media screen and (max-width: 950px) {
-    #cover-text-laning-img {
+    /* #cover-text-laning-img {
         margin: unset;
         top: 110px;
-    }
+    } */
 
     #cover-text {
         top: 250px;
@@ -1336,16 +1284,8 @@ footer i {
         margin-right: 5px;
     }
 
-    .onlyhere i {margin-right: -1px;}
-
-    /* .fa-magnifying-glass::after {
-        margin-right: unset;
-    } */
-
-    /* .active {
-        border-bottom: none;
-        border-left: 1px solid whitesmoke;
-    } */
+    .onlyhere i {margin-right: -1px;
+    }
 
     .dropdown:hover .dropbtn {
         border-bottom: none
@@ -1359,6 +1299,9 @@ footer i {
         font-size: 80%;
         /* margin-left: 50px; */
         width: 100%;
+        top: 120px;
+        right: unset;
+        padding: 5px;
     }
 
     #h1-slider {
@@ -1474,7 +1417,7 @@ footer i {
 /********************************MQ 500px************************************************/
   @media (max-width: 500px) {
     #cover-text-laning-img {
-        margin-left: unset;
+        /* margin-left: unset; */
         width: 80%;
         top: 105px;
     }
