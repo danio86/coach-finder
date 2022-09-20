@@ -947,6 +947,21 @@ footer i {
 /**************************css specific sport.html end***************************/
 
 /**************************sport-category-start**********************************/
+#cover-text-sport-category {
+    position: absolute;
+ /*    top: 350px;
+    font-size: 200%; */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
+    /* margin: 0 100px; */
+    text-align: center;
+    padding: 10px 25px;
+    width: 80%;
+}
+
   .sports-category-dropdown-backgroung {
     width: 100%;
     height: 50px;
