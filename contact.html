@@ -1,128 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Coach Finder</title>
 </head>
+
 <body>
     <header>
 
         <div id="logo-background">
-        <a href="index.html" style="text-decoration: none;">
-            <h1 id="logo">Coach Finder</h1>  
-            <p>sport connects</p>
-        </a>
+            <a href="index.html" style="text-decoration: none;">
+                <h1 id="logo">Coach Finder</h1>
+                <p>sport connects</p>
+            </a>
         </div>
 
         <input id="menu-toggle" type="checkbox" />
         <label class='menu-button-container' for="menu-toggle">
             <span class='menu-button'></span>
         </label>
-            <ul class="menu2" id="menu">
-                <li>
-                    <a href="index.html"><i class="fa-solid fa-house" style="width: 10px;"></i> Home</a>
-                </li>
-                <li>
-                    <!--Dropdown-start-->
-                    <div class="dropdown">
-                        <!-- <button class="dropbtn"> -->
-                            <a class="dropbtn" href="sport.html"><i class="fa-solid fa-magnifying-glass" style="width: 10px;"></i> Sport</a>
-                        <!-- </button> -->
-                        <div class="dropdown-content">
+        <ul class="menu2" id="menu">
+            <li>
+                <a href="index.html"><i class="fa-solid fa-house" style="width: 10px;"></i> Home</a>
+            </li>
+            <li>
+                <!--Dropdown-start-->
+                <div class="dropdown">
+                    <!-- <button class="dropbtn"> -->
+                    <a class="dropbtn" href="sport.html"><i class="fa-solid fa-magnifying-glass"
+                            style="width: 10px;"></i> Sport</a>
+                    <!-- </button> -->
+                    <div class="dropdown-content">
                         <div class="dr-content">
-                          <a href="sport-category.html">Ball sports</a>
-                        </div>
-                        <div class="dr-content">
-                        <a href="sport-category.html">Dancing</a>
+                            <a href="sport-category.html">Ball sports</a>
                         </div>
                         <div class="dr-content">
-                          <a href="sport-category.html">Endurance</a>
+                            <a href="sport-category.html">Dancing</a>
                         </div>
                         <div class="dr-content">
-                          <a href="sport-category.html">Fitness</a>
+                            <a href="sport-category.html">Endurance</a>
                         </div>
                         <div class="dr-content">
-                          <a href="sport-category.html">Gymnastics</a>
+                            <a href="sport-category.html">Fitness</a>
                         </div>
                         <div class="dr-content">
-                          <a href="sport-category.html">Martial Arts</a>
+                            <a href="sport-category.html">Gymnastics</a>
                         </div>
                         <div class="dr-content">
-                          <a href="sport-category.html">Outdoor-Adventure</a>
+                            <a href="sport-category.html">Martial Arts</a>
                         </div>
                         <div class="dr-content">
-                          <a href="sport-category.html">Relaxation</a>
+                            <a href="sport-category.html">Outdoor-Adventure</a>
                         </div>
+                        <div class="dr-content">
+                            <a href="sport-category.html">Relaxation</a>
                         </div>
-                    </div> 
-<!--****************************Dropdown-end********************************-->
-                </li>
-                <li>
-                    <a href="contact.html" class="active"><i class="fa-solid fa-envelope" style="width: 10px;"></i> Contact</a>
-                </li>
-                <li>
-                    <a href="login.html"><i class="fa-solid fa-user" style="width: 10px;"></i> Login</a>
-                </li>
-            </ul>
+                    </div>
+                </div>
+                <!--****************************Dropdown-end********************************-->
+            </li>
+            <li>
+                <a href="contact.html" class="active"><i class="fa-solid fa-envelope" style="width: 10px;"></i>
+                    Contact</a>
+            </li>
+            <li>
+                <a href="login.html"><i class="fa-solid fa-user" style="width: 10px;"></i> Login</a>
+            </li>
+        </ul>
     </header>
 
-<!--*************************section1 start-image-start*************************-->
+    <!--*************************section1 start-image-start*************************-->
     <!-- <section id="pushup-wondow">
         <div id="contact-image"></div>
     </section> -->
 
     <div id="start-img-index">
-        <img src="assets/images/kayak-ga208ca7fc_1920.jpg" class="thx-img"  alt="kayak-lesson" style = "width:100%; height: auto">
+        <img src="assets/images/kayak-ga208ca7fc_1920.jpg" class="thx-img" alt="kayak-lesson"
+            style="width:100%; height: auto">
     </div>
     <!-- <section id="start-img-index">
         <img src="assets/images/kayak-ga208ca7fc_1920.jpg" class="thx-img"  alt="kayak-lesson" style = "width:100%; height: auto">
     </section> -->
-<!--*************************section1 start-image-End*************************-->
+    <!--*************************section1 start-image-End*************************-->
 
-<!--*************************section2 send us a message start*************************-->
-<section id="message">
-    <h2>You want to contact us? Drop a message! <i class="fa-solid fa-face-smile-wink"></i></h2>
-    <!-- <form id="contact-form" action="https://formdump.codeinstitute.net/" method="post"> -->
-    <form id="contact-form" action="https://danio86.github.io/coach-finder/answer.html">
-        <div id="label-email">
-        <label for="email">E-Mail Address</label>
-        <input id="email" type="email" name="email" placeholder= "To reveive an answer" required>
-        </div>
-        <h2>Type Your Message</h2>
-  	    
-        <div id="div-textarea">
-  	    <!-- <textarea class="textarea" id="Message" name="message" placeholder="Your Message" rows="15" cols="100" line="blue"> -->
-        <textarea class="textarea" id="Message" name="message" placeholder="Your Message" rows="15" cols="100">
+    <!--*************************section2 send us a message start*************************-->
+    <section id="message">
+        <h2>You want to contact us? Drop a message! <i class="fa-solid fa-face-smile-wink"></i></h2>
+        <!-- <form id="contact-form" action="https://formdump.codeinstitute.net/" method="post"> -->
+        <form id="contact-form" action="https://danio86.github.io/coach-finder/answer.html">
+            <div id="label-email">
+                <label for="email">E-Mail Address</label>
+                <input id="email" type="email" name="email" placeholder="To reveive an answer" required>
+            </div>
+            <h2>Type Your Message</h2>
+
+            <div id="div-textarea">
+                <!-- <textarea class="textarea" id="Message" name="message" placeholder="Your Message" rows="15" cols="100" line="blue"> -->
+                <textarea class="textarea" id="Message" name="message" placeholder="Your Message" rows="15" cols="100">
   	    </textarea>
-        </div>
-        <div id="submit">
-        <input type="submit" value="Send Message">
-        <!-- <button>
+            </div>
+            <div id="submit">
+                <input type="submit" value="Send Message">
+                <!-- <button>
             <a href="answer.html">Receive Answer <i class="fa-solid fa-message"></i></a>
         </button> -->
-        <input type="reset" value="Clear Form">
-        </div> 
-    </form>
-    <div id="contact-info">
-        <p>
-            Nice to hear from you!
-If you have any questions about your purchased membership, you can best reach us by email at coachfinder@gmail.at, using the contact form or by telephone on +431234456789.
-        </p>
-    </div>
-</section>
+                <input type="reset" value="Clear Form">
+            </div>
+        </form>
+        <div id="contact-info">
+            <p>
+                Nice to hear from you!
+                If you have any questions about your purchased membership, you can best reach us by email at
+                coachfinder@gmail.at, using the contact form or by telephone on +431234456789.
+            </p>
+        </div>
+    </section>
 
-<!--*************************section2 send us a message end*************************-->
-    
-<!--*************************Map-start*************************-->      
+    <!--*************************section2 send us a message end*************************-->
+
+    <!--*************************Map-start*************************-->
     <section id="map-wrapper">
-        
-       
+
+
         <div id="cover-text-position">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10634.631322071738!2d16.4130905!3d48.2132063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9f01ab741350ec09!2sGET%20UP%20Fitness%20GmbH!5e0!3m2!1sde!2sat!4v1661933028704!5m2!1sde!2sat" style="height:400px; width:100%; border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10634.631322071738!2d16.4130905!3d48.2132063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9f01ab741350ec09!2sGET%20UP%20Fitness%20GmbH!5e0!3m2!1sde!2sat!4v1661933028704!5m2!1sde!2sat"
+                style="height:400px; width:100%; border:0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div id="cover-text-contact">
                 <h2>Contact us here!</h2>
                 <h3><i class="fa-solid fa-location-dot"></i> Trabrennstraße 4, 1020 Vienna</h3>
@@ -131,29 +140,35 @@ If you have any questions about your purchased membership, you can best reach us
             </div>
         </div>
     </section>
-<!--*************************Map-end***************************--> 
+    <!--*************************Map-end***************************-->
 
-<!--*************************footer-start*************************--> 
+    <!--*************************footer-start*************************-->
     <footer>
         <p>Find us on:</p>
         <ul class="socail-media">
-            
+
             <li>
-                <a href="http://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
+                <a href="http://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i
+                        class="fa-brands fa-square-youtube"></i></a>
             </li>
             <li>
-                <a href="http://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                <a href="http://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                <a href="http://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
         <p>Copyright © Coachfinder 2022</p>
     </footer>
-    <!--*************************footer-end*************************--> 
+    <!--*************************footer-end*************************-->
 
     <!--fontawesome icons link at this point is faster!-->
     <script src="https://kit.fontawesome.com/1b869f8f2e.js" crossorigin="anonymous"></script>
-    
+
 </body>
+
 </html>

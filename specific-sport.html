@@ -1,280 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="assets/css/style.css" rel="stylesheet">
-    <title>Coach Finder</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <title>Coach Finder</title>
 </head>
+
 <body>
-    <header>
+  <header>
 
-        <div id="logo-background">
-        <a href="index.html" style="text-decoration: none;">
-            <h1 id="logo">Coach Finder</h1> 
-            <p>sport connects</p> 
-        </a>
+    <div id="logo-background">
+      <a href="index.html" style="text-decoration: none;">
+        <h1 id="logo">Coach Finder</h1>
+        <p>sport connects</p>
+      </a>
+    </div>
+
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+      <span class='menu-button'></span>
+    </label>
+    <ul class="menu2" id="menu">
+      <li>
+        <a href="index.html"><i class="fa-solid fa-house" style="width: 10px;"></i> Home</a>
+      </li>
+      <li>
+        <!--Dropdown-start-->
+        <div class="dropdown">
+          <!-- <button class="dropbtn"> -->
+          <a class="dropbtn" href="sport.html"><i class="fa-solid fa-magnifying-glass" style="width: 10px;"></i>
+            Sport</a>
+          <!-- </button> -->
+          <div class="dropdown-content">
+            <div class="dr-content">
+              <a href="sport-category.html">Ball sports</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Dancing</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Endurance</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Fitness</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Gymnastics</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Martial Arts</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Outdoor-Adventure</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Relaxation</a>
+            </div>
+          </div>
         </div>
+        <!--****************************Dropdown-end********************************-->
+      </li>
+      <li>
+        <a href="contact.html"><i class="fa-solid fa-envelope" style="width: 10px;"></i> Contact</a>
+      </li>
+      <li>
+        <a href="login.html"><i class="fa-solid fa-user" style="width: 10px;"></i> Login</a>
+      </li>
+    </ul>
+  </header>
 
-        <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-            <span class='menu-button'></span>
-        </label>
-            <ul class="menu2" id="menu">
-                <li>
-                    <a href="index.html"><i class="fa-solid fa-house" style="width: 10px;"></i> Home</a>
-                </li>
-                <li>
-                    <!--Dropdown-start-->
-                    <div class="dropdown">
-                        <!-- <button class="dropbtn"> -->
-                            <a class="dropbtn" href="sport.html"><i class="fa-solid fa-magnifying-glass" style="width: 10px;"></i> Sport</a>
-                        <!-- </button> -->
-                        <div class="dropdown-content">
-                        <div class="dr-content">
-                        <a href="sport-category.html">Ball sports</a>
-                        </div>
-                        <div class="dr-content">
-                        <a href="sport-category.html">Dancing</a>
-                        </div>
-                        <div class="dr-content">
-                          <a href="sport-category.html">Endurance</a>
-                        </div>
-                        <div class="dr-content">
-                          <a href="sport-category.html">Fitness</a>
-                        </div>
-                        <div class="dr-content">
-                          <a href="sport-category.html">Gymnastics</a>
-                        </div>
-                        <div class="dr-content">
-                          <a href="sport-category.html">Martial Arts</a>
-                        </div>
-                        <div class="dr-content">
-                          <a href="sport-category.html">Outdoor-Adventure</a>
-                        </div>
-                        <div class="dr-content">
-                          <a href="sport-category.html">Relaxation</a>
-                        </div>
-                        </div>
-                    </div> 
-<!--****************************Dropdown-end********************************-->
-                </li>
-                <li>
-                    <a href="contact.html"><i class="fa-solid fa-envelope" style="width: 10px;"></i> Contact</a>
-                </li>
-                <li>
-                    <a href="login.html"><i class="fa-solid fa-user" style="width: 10px;"></i> Login</a>
-                </li>
-            </ul>
-    </header>
-    
-<div id="start-img-index">
-    <img class="specific-img" src="assets/images/boy-gfcc874f4c_1920.jpg" alt="boy football" style = "width:100%; height: auto">
-</div>
-<!--*************************section1: start-image-End***********************-->
-
-
-<!--**********************section2 Coach-selection start******************-->
-<section id="coach-selection">
-<h2>Football</h2>
-<p>Would you like to practice soccer?</p>
-<p>Find a coach for you and/or your team!</p>
-
-<div class="grid-container">
-
-  <div class="grid-item">
-    <img class="specific-coach" src="assets/images/Jürgen_Klopp,_Liverpool_vs._Chelsea,_UEFA_Super_Cup_2019-08-14_04.jpg" alt="football coach">
-    <h2>Name:</h2>
-    <p>Jürgen Norbert Klopp (Nickname: Kloppo)</p>
-    <h3>Coach for:</h3>
-    <p>Football, Fitness</p>
-    <h3>Country:</h3>
-    <p>England</p>
-    <h3>City:</h3>
-    <p>Liverpool</p>
-    <h3>Languages:</h3>
-    <p>English, German</p>
-    <h3>Education:</h3>
-    <p>Graduate sports scientist, Licence for Football teacher</p>
-    <h3>Professional Experience:</h3>
-    <p>1987–1988 	Eintracht Frankfurt (D-Jugend)<br>
-        2001–2008 	1. FSV Mainz 05<br>
-        2008–2015 	Borussia Dortmund<br>
-        2015– 	FC Liverpool</p>
-    <h3>Price per hour:</h3>
-    <p>2400 £</p>
-    <h3>Contact:</h3>
-    <p>Phone/WhatsApp: +44-1234567</p>
-    <h3>For more Information: <a href="https://de.wikipedia.org/wiki/J%C3%BCrgen_Klopp" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-solid fa-circle-info"></i></a>
-    </h3>
+  <div id="start-img-index">
+    <img class="specific-img" src="assets/images/boy-gfcc874f4c_1920.jpg" alt="boy football"
+      style="width:100%; height: auto">
   </div>
-
-  <div class="grid-item">
-    <img class="specific-coach" src="assets/images/Pep_2017_(cropped).jpg" alt="football coach">
-    <h2>Name:</h2>
-    <p>Josep Guardiola Sala (Nickname: Pep)</p>
-    <h3>Coach for:</h3>
-    <p>Football, Fitness</p>
-    <h3>Country:</h3>
-    <p>England</p>
-    <h3>City:</h3>
-    <p>Manchester</p>
-    <h3>Languages:</h3>
-    <p>English, German, Spanish</p>
-    <h3>Professional Experience:</h3>
-    <p>2007–2008 	FC Barcelona B<br>
-        2008–2012 	FC Barcelona<br>
-        2013–2016 	FC Bayern München<br>
-        2016– 	Manchester City</p>
-    <h3>Price per hour:</h3>
-    <p>2100 £</p>
-    <h3>Contact:</h3>
-    <p>Phone/WhatsApp: +44-2345678</p>
-    <h3>For more Information: <a href="https://de.wikipedia.org/wiki/Pep_Guardiola" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-solid fa-circle-info"></i></a>
-    </h3>
-  </div>
-
-  <div class="grid-item">
-    <img class="specific-coach" src="assets/images/Übergabe_DFB-Pokal_an_Botschafter_Toni_Schumacher_und_Janus_Fröhlich-6606.jpg" alt="football coach">
-    <h2>Name:</h2>
-    <p>Stephanie Ann Jones (Nickname: Steffi)</p>
-    <h3>Coach for:</h3>
-    <p>Football, Fitness</p>
-    <h3>Country:</h3>
-    <p>Germany</p>
-    <h3>City:</h3>
-    <p>Frankfurt</p>
-    <h3>Languages:</h3>
-    <p>English, German</p>
-    <h3>Education:</h3>
-    <p>Licence for Football teacher</p>
-    <h3>Professional Experience:</h3>
-    <p>2015–2016 	Germany (Co-Trainer)<br>
-        2016–2018 	Germany<br>
-        2019– 	SSV Buer 07/28 (Co-Trainer)</p>
-    <h3>Price per hour:</h3>
-    <p>2700 €</p>
-    <h3>Contact:</h3>
-    <p>Phone/WhatsApp: +49-3456789</p>
-    <h3>For more Information: <a href="https://de.wikipedia.org/wiki/Steffi_Jones" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-solid fa-circle-info"></i></a>
-    </h3>
-  </div>  
-
-  <div class="grid-item">
-    <img class="specific-coach" src="assets/images/José_Mourinho.jpg" alt="football coach">
-    <h2>Name:</h2>
-    <p>José Mário dos Santos Félix Mourinho</p>
-    <h3>Coach for:</h3>
-    <p>Football, Fitness</p>
-    <h3>Country:</h3>
-    <p>Italy</p>
-    <h3>City:</h3>
-    <p>Rom</p>
-    <h3>Languages:</h3>
-    <p>English, Italien, Portuguese, Spanish</p>
-    <h3>Education:</h3>
-    <p>Graduate sports scientist, Licence for Football teacher</p>
-    <h3>Professional Experience (among other things):</h3>
-    <p>	2002–2004 	FC Porto<br>
-        2004–2007 	FC Chelsea<br>
-        2008–2010 	Inter Mailand<br>
-        2010–2013 	Real Madrid<br>
-        2013–2015 	FC Chelsea<br>
-        2016–2018 	Manchester United<br>
-        2019–2021 	Tottenham Hotspur<br>
-        2021– 	AS Rom</p>
-    <h3>Price per hour:</h3>
-    <p>500 €</p>
-    <h3>Contact:</h3>
-    <p>Phone/WhatsApp: +39-4567891</p>
-    <h3>For more Information: <a href="https://de.wikipedia.org/wiki/Jos%C3%A9_Mourinho" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-solid fa-circle-info"></i></a>
-    </h3>
-  </div>
-
-  <div class="grid-item">
-    <img class="specific-coach" src="assets/images/Zinedine_Zidane_by_Tasnim_03.jpg" alt="football coach">
-    <h2>Name:</h2>
-    <p>Zinédine Yazid Zidane (Nickname: Zizou)</p>
-    <h3>Coach for:</h3>
-    <p>Football, Fitness</p>
-    <h3>Country:</h3>
-    <p>Spain</p>
-    <h3>City:</h3>
-    <p>Madrid</p>
-    <h3>Languages:</h3>
-    <p>French, Spanish</p>
-    <h3>Education:</h3>
-    <p>UEFA-Pro-Trainer-Licence</p>
-    <h3>Professional Experience:</h3>
-    <p> 2013–2014 	Real Madrid (Co-Trainer)<br> 
-        2014–2016 	Real Madrid Castilla<br>
-        2016–2018 	Real Madrid<br>
-        2019–2021 	Real Madrid</p>
-    <h3>Price per hour:</h3>
-    <p>2000 €</p>
-    <h3>Contact:</h3>
-    <p>Phone/WhatsApp: +34-5678912</p>
-    <h3>For more Information: <a href="https://de.wikipedia.org/wiki/Zin%C3%A9dine_Zidane" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-solid fa-circle-info"></i></a>
-    </h3>
-  </div>
-
-  <div class="grid-item">
-    <img class="specific-coach" src="assets/images/2022-07-30_Fußball,_Männer,_DFL-Supercup,_RB_Leipzig_-_FC_Bayern_München_1DX_3166_by_Stepro.jpg" alt="football coach">
-    <h2>Name:</h2>
-    <p>Hans-Dieter Flick (Nickname: Hansi)</p>
-    <h3>Coach for:</h3>
-    <p>Football, Fitness</p>
-    <h3>Country:</h3>
-    <p>Germany</p>
-    <h3>City:</h3>
-    <p>Munich</p>
-    <h3>Languages:</h3>
-    <p>German</p>
-    <h3>Education:</h3>
-    <p>Licence for Football teacher</p>
-    <h3>Professional Experience:</h3>
-    <p> 1996–2000 	FC Victoria Bammental<br>
-        2000–2005 	TSG 1899 Hoffenheim<br>
-        2006 	FC Red Bull Salzburg (Co-Trainer)<br>
-        2006–2014 	Germany (Co-Trainer)<br>
-        2019 	FC Bayern München (Co-Trainer)<br>
-        2019–2021 	FC Bayern München<br>
-        2021– 	Germany</p>
-    <h3>Price per hour:</h3>
-    <p>800 €</p>
-    <h3>Contact:</h3>
-    <p>Phone/WhatsApp: +49-6789123</p>
-    <h3>For more Information: <a href="https://de.wikipedia.org/wiki/Hansi_Flick" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-solid fa-circle-info"></i></a>
-    </h3>
-  </div>  
-</div>
-</section>
-<!--********************section2 Coach-selection -End********************-->
+  <!--*************************section1: start-image-End***********************-->
 
 
-<!--********************footer-start********************--> 
-    <footer>
-        <p>Find us on:</p>
-        <ul class="socail-media">
-            
-            <li>
-                <a href="http://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
-            </li>
-            <li>
-                <a href="http://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-        <p>Copyright © Coachfinder 2022</p>
-    </footer>
-    <!--********************footer-end********************--> 
+  <!--**********************section2 Coach-selection start******************-->
+  <section id="coach-selection">
+    <h2>Football</h2>
+    <p>Would you like to practice soccer?</p>
+    <p>Find a coach for you and/or your team!</p>
 
-    <!--fontawesome icons link at this point is faster!-->
-    <script src="https://kit.fontawesome.com/1b869f8f2e.js" crossorigin="anonymous"></script>
-    
+    <div class="grid-container">
+
+      <div class="grid-item">
+        <img class="specific-coach"
+          src="assets/images/Jürgen_Klopp,_Liverpool_vs._Chelsea,_UEFA_Super_Cup_2019-08-14_04.jpg"
+          alt="football coach">
+        <h2>Name:</h2>
+        <p>Jürgen Norbert Klopp (Nickname: Kloppo)</p>
+        <h3>Coach for:</h3>
+        <p>Football, Fitness</p>
+        <h3>Country:</h3>
+        <p>England</p>
+        <h3>City:</h3>
+        <p>Liverpool</p>
+        <h3>Languages:</h3>
+        <p>English, German</p>
+        <h3>Education:</h3>
+        <p>Graduate sports scientist, Licence for Football teacher</p>
+        <h3>Professional Experience:</h3>
+        <p>1987–1988 Eintracht Frankfurt (D-Jugend)<br>
+          2001–2008 1. FSV Mainz 05<br>
+          2008–2015 Borussia Dortmund<br>
+          2015– FC Liverpool</p>
+        <h3>Price per hour:</h3>
+        <p>2400 £</p>
+        <h3>Contact:</h3>
+        <p>Phone/WhatsApp: +44-1234567</p>
+        <h3>For more Information: <a href="https://de.wikipedia.org/wiki/J%C3%BCrgen_Klopp" target="_blank"
+            rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i
+              class="fa-solid fa-circle-info"></i></a>
+        </h3>
+      </div>
+
+      <div class="grid-item">
+        <img class="specific-coach" src="assets/images/Pep_2017_(cropped).jpg" alt="football coach">
+        <h2>Name:</h2>
+        <p>Josep Guardiola Sala (Nickname: Pep)</p>
+        <h3>Coach for:</h3>
+        <p>Football, Fitness</p>
+        <h3>Country:</h3>
+        <p>England</p>
+        <h3>City:</h3>
+        <p>Manchester</p>
+        <h3>Languages:</h3>
+        <p>English, German, Spanish</p>
+        <h3>Professional Experience:</h3>
+        <p>2007–2008 FC Barcelona B<br>
+          2008–2012 FC Barcelona<br>
+          2013–2016 FC Bayern München<br>
+          2016– Manchester City</p>
+        <h3>Price per hour:</h3>
+        <p>2100 £</p>
+        <h3>Contact:</h3>
+        <p>Phone/WhatsApp: +44-2345678</p>
+        <h3>For more Information: <a href="https://de.wikipedia.org/wiki/Pep_Guardiola" target="_blank" rel="noopener"
+            aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-solid fa-circle-info"></i></a>
+        </h3>
+      </div>
+
+      <div class="grid-item">
+        <img class="specific-coach"
+          src="assets/images/Übergabe_DFB-Pokal_an_Botschafter_Toni_Schumacher_und_Janus_Fröhlich-6606.jpg"
+          alt="football coach">
+        <h2>Name:</h2>
+        <p>Stephanie Ann Jones (Nickname: Steffi)</p>
+        <h3>Coach for:</h3>
+        <p>Football, Fitness</p>
+        <h3>Country:</h3>
+        <p>Germany</p>
+        <h3>City:</h3>
+        <p>Frankfurt</p>
+        <h3>Languages:</h3>
+        <p>English, German</p>
+        <h3>Education:</h3>
+        <p>Licence for Football teacher</p>
+        <h3>Professional Experience:</h3>
+        <p>2015–2016 Germany (Co-Trainer)<br>
+          2016–2018 Germany<br>
+          2019– SSV Buer 07/28 (Co-Trainer)</p>
+        <h3>Price per hour:</h3>
+        <p>2700 €</p>
+        <h3>Contact:</h3>
+        <p>Phone/WhatsApp: +49-3456789</p>
+        <h3>For more Information: <a href="https://de.wikipedia.org/wiki/Steffi_Jones" target="_blank" rel="noopener"
+            aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-solid fa-circle-info"></i></a>
+        </h3>
+      </div>
+
+      <div class="grid-item">
+        <img class="specific-coach" src="assets/images/José_Mourinho.jpg" alt="football coach">
+        <h2>Name:</h2>
+        <p>José Mário dos Santos Félix Mourinho</p>
+        <h3>Coach for:</h3>
+        <p>Football, Fitness</p>
+        <h3>Country:</h3>
+        <p>Italy</p>
+        <h3>City:</h3>
+        <p>Rom</p>
+        <h3>Languages:</h3>
+        <p>English, Italien, Portuguese, Spanish</p>
+        <h3>Education:</h3>
+        <p>Graduate sports scientist, Licence for Football teacher</p>
+        <h3>Professional Experience (among other things):</h3>
+        <p> 2002–2004 FC Porto<br>
+          2004–2007 FC Chelsea<br>
+          2008–2010 Inter Mailand<br>
+          2010–2013 Real Madrid<br>
+          2013–2015 FC Chelsea<br>
+          2016–2018 Manchester United<br>
+          2019–2021 Tottenham Hotspur<br>
+          2021– AS Rom</p>
+        <h3>Price per hour:</h3>
+        <p>500 €</p>
+        <h3>Contact:</h3>
+        <p>Phone/WhatsApp: +39-4567891</p>
+        <h3>For more Information: <a href="https://de.wikipedia.org/wiki/Jos%C3%A9_Mourinho" target="_blank"
+            rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i
+              class="fa-solid fa-circle-info"></i></a>
+        </h3>
+      </div>
+
+      <div class="grid-item">
+        <img class="specific-coach" src="assets/images/Zinedine_Zidane_by_Tasnim_03.jpg" alt="football coach">
+        <h2>Name:</h2>
+        <p>Zinédine Yazid Zidane (Nickname: Zizou)</p>
+        <h3>Coach for:</h3>
+        <p>Football, Fitness</p>
+        <h3>Country:</h3>
+        <p>Spain</p>
+        <h3>City:</h3>
+        <p>Madrid</p>
+        <h3>Languages:</h3>
+        <p>French, Spanish</p>
+        <h3>Education:</h3>
+        <p>UEFA-Pro-Trainer-Licence</p>
+        <h3>Professional Experience:</h3>
+        <p> 2013–2014 Real Madrid (Co-Trainer)<br>
+          2014–2016 Real Madrid Castilla<br>
+          2016–2018 Real Madrid<br>
+          2019–2021 Real Madrid</p>
+        <h3>Price per hour:</h3>
+        <p>2000 €</p>
+        <h3>Contact:</h3>
+        <p>Phone/WhatsApp: +34-5678912</p>
+        <h3>For more Information: <a href="https://de.wikipedia.org/wiki/Zin%C3%A9dine_Zidane" target="_blank"
+            rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i
+              class="fa-solid fa-circle-info"></i></a>
+        </h3>
+      </div>
+
+      <div class="grid-item">
+        <img class="specific-coach"
+          src="assets/images/2022-07-30_Fußball,_Männer,_DFL-Supercup,_RB_Leipzig_-_FC_Bayern_München_1DX_3166_by_Stepro.jpg"
+          alt="football coach">
+        <h2>Name:</h2>
+        <p>Hans-Dieter Flick (Nickname: Hansi)</p>
+        <h3>Coach for:</h3>
+        <p>Football, Fitness</p>
+        <h3>Country:</h3>
+        <p>Germany</p>
+        <h3>City:</h3>
+        <p>Munich</p>
+        <h3>Languages:</h3>
+        <p>German</p>
+        <h3>Education:</h3>
+        <p>Licence for Football teacher</p>
+        <h3>Professional Experience:</h3>
+        <p> 1996–2000 FC Victoria Bammental<br>
+          2000–2005 TSG 1899 Hoffenheim<br>
+          2006 FC Red Bull Salzburg (Co-Trainer)<br>
+          2006–2014 Germany (Co-Trainer)<br>
+          2019 FC Bayern München (Co-Trainer)<br>
+          2019–2021 FC Bayern München<br>
+          2021– Germany</p>
+        <h3>Price per hour:</h3>
+        <p>800 €</p>
+        <h3>Contact:</h3>
+        <p>Phone/WhatsApp: +49-6789123</p>
+        <h3>For more Information: <a href="https://de.wikipedia.org/wiki/Hansi_Flick" target="_blank" rel="noopener"
+            aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-solid fa-circle-info"></i></a>
+        </h3>
+      </div>
+    </div>
+  </section>
+  <!--********************section2 Coach-selection -End********************-->
+
+
+  <!--********************footer-start********************-->
+  <footer>
+    <p>Find us on:</p>
+    <ul class="socail-media">
+
+      <li>
+        <a href="http://youtube.com" target="_blank" rel="noopener"
+          aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
+      </li>
+      <li>
+        <a href="http://facebook.com" target="_blank" rel="noopener"
+          aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="http://instagram.com" target="_blank" rel="noopener"
+          aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+      </li>
+    </ul>
+    <p>Copyright © Coachfinder 2022</p>
+  </footer>
+  <!--********************footer-end********************-->
+
+  <!--fontawesome icons link at this point is faster!-->
+  <script src="https://kit.fontawesome.com/1b869f8f2e.js" crossorigin="anonymous"></script>
+
 </body>
+
 </html>

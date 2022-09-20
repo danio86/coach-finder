@@ -1,157 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="assets/css/style.css" rel="stylesheet">
-    <title>Coach Finder</title>
-</head>
-<body>
-    <header>
 
-        <div id="logo-background">
-        <a href="index.html" style="text-decoration: none;">
-            <h1 id="logo">Coach Finder</h1> 
-            <p>sport connects</p> 
-        </a>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <title>Coach Finder</title>
+</head>
+
+<body>
+  <header>
+
+    <div id="logo-background">
+      <a href="index.html" style="text-decoration: none;">
+        <h1 id="logo">Coach Finder</h1>
+        <p>sport connects</p>
+      </a>
+    </div>
+
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+      <span class='menu-button'></span>
+    </label>
+    <ul class="menu2" id="menu">
+      <li>
+        <a href="index.html"><i class="fa-solid fa-house" style="width: 10px;"></i> Home</a>
+      </li>
+      <li>
+        <!--Dropdown-start-->
+        <div class="dropdown">
+          <!-- <button class="dropbtn"> -->
+          <a class="dropbtn" href="sport.html"><i class="fa-solid fa-magnifying-glass" style="width: 10px;"></i>
+            Sport</a>
+          <!-- </button> -->
+          <div class="dropdown-content">
+            <div class="dr-content">
+              <a href="sport-category.html">Ball sports</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Dancing</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Endurance</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Fitness</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Gymnastics</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Martial Arts</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Outdoor-Adventure</a>
+            </div>
+            <div class="dr-content">
+              <a href="sport-category.html">Relaxation</a>
+            </div>
+          </div>
+        </div>
+        <!--****************************Dropdown-end********************************-->
+      </li>
+      <li>
+        <a href="contact.html"><i class="fa-solid fa-envelope" style="width: 10px;"></i> Contact</a>
+      </li>
+      <li>
+        <a href="login.html"><i class="fa-solid fa-user" style="width: 10px;"></i> Login</a>
+      </li>
+    </ul>
+  </header>
+  <!-- ****************************************************** -->
+
+
+
+  <!--*************************section1: sign Up start***********************-->
+
+  <section class="signup">
+    <!-- <section class="signup" style="background: url(assets/images/bike-gca785d82e_1920.jpg)"> -->
+    <form action="thx.html" class="signup-form">
+      <div id="signup-heading">
+        <h2>Sign Up for free! NOW!!!</h2>
+        <h2>Sign up for Sport! <i class="fa-solid fa-trophy"></i></h2>
+      </div>
+      <div id="form-signup">
+        <label for="uname">Username</label>
+        <input class="text-input" id="uname" name="user_name" type="text" required>
+        <br>
+        <label for="password2">Enter Password</label>
+        <input class="text-input" id="password2" type="password" name="password2" placeholder="******" required>
+        <br>
+        <label for="password3">Confirm Password</label>
+        <input class="text-input" id="password3" type="password" name="password3" placeholder="Confirm Password"
+          required>
+        <br>
+        <label for="email">Email Address</label>
+        <input class="text-input" type="email" id="email" name="email_address" required>
+
+        <div id="radio-background">
+          <label class="radio" for="athlete">Athlete</label>
+          <input type="radio" id="athlete" name="user-type" value="athlete" required>
+
+          <label class="radio" for="coach">Coach</label>
+          <input type="radio" id="coach" name="user-type" value="coach" required>
+
+          <label class="radio" for="sports-club-owner">Sports-Club-Owner</label>
+          <input type="radio" id="sports-club-owner" name="user-type" value="sports-club-owner" required>
         </div>
 
-        <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-            <span class='menu-button'></span>
-        </label>
-            <ul class="menu2" id="menu">
-                <li>
-                    <a href="index.html"><i class="fa-solid fa-house" style="width: 10px;"></i> Home</a>
-                </li>
-                <li>
-                    <!--Dropdown-start-->
-                    <div class="dropdown">
-                        <!-- <button class="dropbtn"> -->
-                            <a class="dropbtn" href="sport.html"><i class="fa-solid fa-magnifying-glass" style="width: 10px;"></i> Sport</a>
-                        <!-- </button> -->
-                        <div class="dropdown-content">
-                        <div class="dr-content">
-                          <a href="sport-category.html">Ball sports</a>
-                        </div>
-                        <div class="dr-content">
-                        <a href="sport-category.html">Dancing</a>
-                        </div>
-                        <div class="dr-content">
-                          <a href="sport-category.html">Endurance</a>
-                        </div>
-                        <div class="dr-content">
-                          <a href="sport-category.html">Fitness</a>
-                        </div>
-                        <div class="dr-content">
-                          <a href="sport-category.html">Gymnastics</a>
-                        </div>
-                        <div class="dr-content">
-                          <a href="sport-category.html">Martial Arts</a>
-                        </div>
-                        <div class="dr-content">
-                          <a href="sport-category.html">Outdoor-Adventure</a>
-                        </div>
-                        <div class="dr-content">
-                          <a href="sport-category.html">Relaxation</a>
-                        </div>
-                        </div>
-                    </div> 
-<!--****************************Dropdown-end********************************-->
-                </li>
-                <li>
-                    <a href="contact.html"><i class="fa-solid fa-envelope" style="width: 10px;"></i> Contact</a>
-                </li>
-                <li>
-                    <a href="login.html"><i class="fa-solid fa-user" style="width: 10px;"></i> Login</a>
-                </li>
-            </ul>
-    </header>
-<!-- ****************************************************** -->    
-
-
-
-<!--*************************section1: sign Up start***********************-->
-
-<section class="signup">
-<!-- <section class="signup" style="background: url(assets/images/bike-gca785d82e_1920.jpg)"> -->
-  <form action="thx.html" class="signup-form">
-    <div id="signup-heading">
-      <h2>Sign Up for free! NOW!!!</h2>
-      <h2>Sign up for Sport! <i class="fa-solid fa-trophy"></i></h2>
-    </div>
-    <div id="form-signup">
-      <label for="uname">Username</label>
-      <input class="text-input" id="uname" name="user_name" type="text" required>
-      <br>
-      <label for="password2">Enter Password</label>
-      <input class="text-input" id="password2" type="password" name="password2" placeholder="******" required>
-      <br>
-      <label for="password3">Confirm Password</label>
-      <input class="text-input" id="password3" type="password" name="password3" placeholder="Confirm Password" required>
-      <br>
-      <label for="email">Email Address</label>
-      <input class="text-input" type="email" id="email" name="email_address" required>
-    
-      <div id="radio-background">
-        <label class="radio" for="athlete">Athlete</label>
-        <input type="radio" id="athlete" name="user-type" value="athlete" required>
-    
-        <label class="radio" for="coach">Coach</label>
-        <input type="radio" id="coach" name="user-type" value="coach" required>
-    
-        <label class="radio" for="sports-club-owner">Sports-Club-Owner</label>
-        <input type="radio" id="sports-club-owner" name="user-type" value="sports-club-owner" required>
+        <input class="join-button" type="submit" value="Sign Up for free!">
+        <!-- <a class="join-button" href="thx.html">Sign Up for free!</a> -->
       </div>
+    </form>
+    <!-- ************************************************************* -->
+    <script>
+      var password = document.getElementById("password2");
+      confirm_password = document.getElementById("password3");
 
-      <input class="join-button" type="submit" value="Sign Up for free!">
-      <!-- <a class="join-button" href="thx.html">Sign Up for free!</a> -->
-    </div>
-</form>
-<!-- ************************************************************* -->
-<script>
-var password = document.getElementById("password2");
-  confirm_password = document.getElementById("password3");
+      function validatePassword() {
+        if (password2.value != password3.value) {
+          password3.setCustomValidity("Passwords Don't Match");
+        } else {
+          password3.setCustomValidity('');
+        }
+      }
+      password.onchange = validatePassword;
+      confirm_password.onkeyup = validatePassword;
+    </script>
+    <!-- ************************************************************* -->
+  </section>
 
-function validatePassword(){
-  if(password2.value != password3.value) {
-    password3.setCustomValidity("Passwords Don't Match");
-  } else {
-    password3.setCustomValidity('');
-  }
-}
-password.onchange = validatePassword;
-confirm_password.onkeyup = validatePassword;
-</script>
-<!-- ************************************************************* -->
-</section>
-
-<!--*************************section2: sign Up end***********************-->
+  <!--*************************section2: sign Up end***********************-->
 
 
-<!--********************footer-start********************--> 
-    <footer>
-        <p>Find us on:</p>
-        <ul class="socail-media">
-            
-            <li>
-                <a href="http://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
-            </li>
-            <li>
-                <a href="http://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-        <p>Copyright © Coachfinder 2022</p>
-    </footer>
-    <!--********************footer-end********************--> 
+  <!--********************footer-start********************-->
+  <footer>
+    <p>Find us on:</p>
+    <ul class="socail-media">
 
-    <!--fontawesome icons link at this point is faster!-->
-    <script src="https://kit.fontawesome.com/1b869f8f2e.js" crossorigin="anonymous"></script>
-    
+      <li>
+        <a href="http://youtube.com" target="_blank" rel="noopener"
+          aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
+      </li>
+      <li>
+        <a href="http://facebook.com" target="_blank" rel="noopener"
+          aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="http://instagram.com" target="_blank" rel="noopener"
+          aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+      </li>
+    </ul>
+    <p>Copyright © Coachfinder 2022</p>
+  </footer>
+  <!--********************footer-end********************-->
+
+  <!--fontawesome icons link at this point is faster!-->
+  <script src="https://kit.fontawesome.com/1b869f8f2e.js" crossorigin="anonymous"></script>
+
 </body>
+
 </html>

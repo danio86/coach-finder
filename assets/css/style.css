@@ -10,10 +10,12 @@ body {
     font-family: "Roboto Mono", sans-serif;
     font-weight: 300;
     letter-spacing: 5px;
-    
+
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Rubik, sans-serif;
     text-transform: uppercase;
 }
@@ -24,8 +26,8 @@ header {
     height: 100px;
     z-index: 1;
     position: fixed;
-	top: 0;
-	width: 100%;
+    top: 0;
+    width: 100%;
 }
 
 #logo {
@@ -61,7 +63,7 @@ header {
 
 #menu {
     font-size: 150%;
-    line-height: 120px; 
+    line-height: 120px;
 }
 
 #menu li {
@@ -77,7 +79,8 @@ header {
 }
 
 .active {
-    border-bottom: 1px solid rgb(37, 37, 37);}
+    border-bottom: 1px solid rgb(37, 37, 37);
+}
 
 #menu li:hover {
     border-bottom: 1px solid rgb(37, 37, 37);
@@ -96,7 +99,7 @@ header {
 
 .dropdown:hover .dropbtn {
     border-bottom: 1px solid rgb(37, 37, 37);
-  }
+}
 
 .dropdown-content {
     display: none;
@@ -107,9 +110,9 @@ header {
     z-index: 2;
     font-size: 80%;
     margin-top: -20px;
-  }
+}
 
-  .dr-content {
+.dr-content {
     height: 20px;
     background-color: rgb(37, 37, 37, 0.7);
     color: whitesmoke;
@@ -118,30 +121,30 @@ header {
     padding: 5px;
     overflow: hidden;
     padding-top: 3px;
-  }
+}
 
-  .dr-content a {
+.dr-content a {
     color: whitesmoke !important;
 }
 
-  .dr-content:hover {
+.dr-content:hover {
     background-color: rgb(37, 37, 37);
     color: whitesmoke;
     cursor: pointer;
     border: 1px solid whitesmoke;
-    
-  }
-  
-  .dropdown-content a {
+
+}
+
+.dropdown-content a {
     float: none;
     color: whitesmoke;
-  } 
+}
 
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
 }
 
-  .menu2 {
+.menu2 {
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -149,18 +152,18 @@ header {
     justify-content: center;
     float: right;
     font-size: 150%;
-  }
-  
-  .menu2 > li {
+}
+
+.menu2>li {
     margin: 0 1rem;
-  }
-  
-  .menu2 a {
+}
+
+.menu2 a {
     color: rgb(37, 37, 37);
     text-decoration: none;
-  }
+}
 
-  .menu-button-container {
+.menu-button-container {
     display: none;
     height: 100%;
     width: 30px;
@@ -168,15 +171,15 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  #menu-toggle {
+}
+
+#menu-toggle {
     display: none;
-  }
-  
-  .menu-button,
-  .menu-button::before,
-  .menu-button::after {
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
     display: block;
     background-color: whitesmoke;
     position: absolute;
@@ -184,31 +187,31 @@ header {
     width: 30px;
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 2px;
-  }
-  
-  .menu-button::before {
+}
+
+.menu-button::before {
     content: '';
     margin-top: -8px;
-  }
-  
-  .menu-button::after {
+}
+
+.menu-button::after {
     content: '';
     margin-top: 8px;
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button::before {
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
     margin-top: 0px;
     transform: rotate(405deg);
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button {
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
     background: rgb(37, 37, 37);
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button::after {
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
     margin-top: 0px;
     transform: rotate(-405deg);
-  }
+}
 
 /***********css- dropdown-end**************/
 
@@ -276,12 +279,12 @@ header {
     width: 100%;
     height: 50px;
     /* color: aqua; */
-    /* position: absolute; 
+/* position: absolute; 
     padding: 25px;
 } */
 
 #slider-left-block {
-   /*  padding-top: 40px; */
+    /*  padding-top: 40px; */
     /* padding-bottom: 40px; */
     width: 40%;
     margin-left: 50px;
@@ -304,6 +307,7 @@ hr {
     width: 96.5%;
     margin: 5px 0;
 }
+
 /********slider-left-block-end******************/
 
 /********slide-show-start**********************/
@@ -312,7 +316,7 @@ hr {
     width: 750px;
     border-radius: 10px;
     overflow: hidden;
-    float:right;
+    float: right;
     /* margin-left: 500px; */
     position: relative;
     margin: 0 50px;
@@ -327,7 +331,7 @@ hr {
 
 .slide-images input {
     display: none;
-    
+
 }
 
 .image-container {
@@ -440,7 +444,8 @@ hr {
 #map-wrapper {
 
     height: 400px;
-    /* margin-bottom: 107px */;
+    /* margin-bottom: 107px */
+    ;
 }
 
 #cover-text-position {
@@ -467,6 +472,7 @@ hr {
     background-color: rgb(37, 37, 37, 0.7);
     color: whitesmoke;
 }
+
 /*****************css-map-end**************************/
 
 /*********************css-footer-start**************************/
@@ -482,14 +488,15 @@ footer p {
     text-align: center;
     padding: 15px;
 }
+
 footer ul {
     text-align: center;
-    
+
 }
 
 footer li {
     list-style: none;
-    display:inline;
+    display: inline;
     padding: 60px;
     font-size: 160%;
 }
@@ -508,7 +515,8 @@ footer i {
     height: 600px;
     width: 100%;
     background: url('../images/woman-g300e0832e_1920.jpg') no-repeat center center;
-    position: relative}
+    position: relative
+}
 
 /*************************section1-image end********************************/
 
@@ -517,6 +525,7 @@ footer i {
     height: 800px;
     background-color: rgb(37, 37, 37);
     position: relative;
+    padding: 0 50px;
 }
 
 #sports-dropdown h2 {
@@ -588,9 +597,9 @@ footer i {
     background-color: rgb(37, 37, 37);
     color: whitesmoke;
 }
-  
+
 .ball-content a:hover {
-    background-color: whitesmoke; 
+    background-color: whitesmoke;
     color: rgb(37, 37, 37);
     text-decoration: none;
 }
@@ -615,7 +624,8 @@ footer i {
     height: 600px;
     width: 100%;
     background: url('../images/kayak-ga208ca7fc_1920.jpg') no-repeat center center;
-    position: relative}
+    position: relative
+}
 
 /*************************section1-image end********************************/
 
@@ -623,18 +633,21 @@ footer i {
 
 #message {
     height: 600px;
-    background-color: whitesmoke;
-    /* color: whitesmoke; */
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
+    margin-top: -25px;
+    text-align: center;
+    padding: 50px;
 }
 
-#message h1 {
+/* #message h1 {
     text-align: center;
     padding: 25px;
     background-color: rgb(37, 37, 37);
-}
+} */
 
 #message h2 {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     margin-bottom: 5px;
     position: relative;
     color: whitesmoke;
@@ -654,17 +667,17 @@ footer i {
     height: 350px;
     margin-top: 0px;
     text-align: center;
-    
+
 }
 
 #div-textarea {
     position: relative;
-    background-color:rgb(37, 37, 37, 0.7);
+    background-color: rgb(37, 37, 37, 0.7);
 }
 
 .textarea {
     height: 200px;
-    border: 2px solid rgb(37, 37, 37); 
+    border: 2px solid rgb(37, 37, 37);
 }
 
 #submit {
@@ -675,13 +688,16 @@ footer i {
     padding: 5px;
 }
 
-#submit /* input, */ a {
+#submit
+
+/* input, */
+a {
     text-decoration: none;
     padding: 5px 50px;
     color: whitesmoke;
     background-color: rgb(37, 37, 37);
     font-size: 135%;
-    border: 1px solid whitesmoke; 
+    border: 1px solid whitesmoke;
     border-radius: 2px;
 }
 
@@ -690,7 +706,7 @@ footer i {
     background-color: rgb(37, 37, 37);
     font-size: 120%;
     cursor: pointer;
-    border: 1px solid whitesmoke; 
+    border: 1px solid whitesmoke;
     border-radius: 2px;
     padding: 5px 50px;
 }
@@ -698,8 +714,10 @@ footer i {
 #contact-info {
     background-color: rgb(37, 37, 37);
     padding: 50px;
-    margin-top: -2px;
-    color: whitesmoke;
+    margin-top: 25px;
+    /* color: whitesmoke; */
+    border: 1px solid whitesmoke;
+
 }
 
 /**********************************section2 send us a message end************************/
@@ -719,6 +737,7 @@ footer i {
     background-color: rgb(37, 37, 37, 0.7);
     color: whitesmoke;
 }
+
 /**********************************section3 map start************************/
 
 /**************************contact.html end***************************/
@@ -780,7 +799,7 @@ footer i {
 .text-input:hover {
     border-color: aqua;
 }
-    
+
 .join-button {
     margin: 20px 50px 0 0;
     border-radius: 2px;
@@ -914,19 +933,20 @@ footer i {
     text-align: center;
     color: whitesmoke;
     font-size: 150%;
- }
+}
 
 #coach-selection h1 {
     padding: 25px 0 10px 0;
- }
+}
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     padding: 10px;
     gap: 20px 10px;
-  }
-  .grid-item {
+}
+
+.grid-item {
     background-color: whitesmoke;
     border: 1px solid rgb(37, 37, 37);
     padding: 20px;
@@ -934,22 +954,23 @@ footer i {
     letter-spacing: 3px;
     color: rgb(37, 37, 37);
     text-align: left;
-  }
+}
 
-  .grid-item a {
+.grid-item a {
     color: rgb(37, 37, 37);
-  }
+}
 
-  .specific-coach {
+.specific-coach {
     float: right;
     width: 20%;
-  }
+}
+
 /**************************css specific sport.html end***************************/
 
 /**************************sport-category-start**********************************/
 #cover-text-sport-category {
     position: absolute;
- /*    top: 350px;
+    /*    top: 350px;
     font-size: 200%; */
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -962,7 +983,7 @@ footer i {
     width: 80%;
 }
 
-  .sports-category-dropdown-backgroung {
+.sports-category-dropdown-backgroung {
     width: 100%;
     height: 50px;
     background-color: whitesmoke;
@@ -970,42 +991,43 @@ footer i {
     display: inline-block;
     cursor: pointer;
     margin-top: 6px;
-  }
+}
 
-  .ball-content-specific-sport {
+.ball-content-specific-sport {
     display: none;
     background-color: rgb(37, 37, 37);
     color: whitesmoke;
     margin-top: 24px;
     /* overflow: hidden; */
-  }
+}
 
-  .ball-content-specific-sport a {
+.ball-content-specific-sport a {
     text-decoration: none;
     color: whitesmoke;
     display: block;
     padding: 3px 50px;
     border: 1px solid rgb(37, 37, 37);
- }
+}
 
 .ball-content-specific-sport:hover {
     background-color: rgb(37, 37, 37);
     color: whitesmoke;
- }
-  
+}
+
 .ball-content-specific-sport a:hover {
-    background-color: whitesmoke; 
+    background-color: whitesmoke;
     color: rgb(37, 37, 37);
     text-decoration: none;
- }
+}
 
 .sports-category-dropdown-backgroung:hover {
     background-color: azure;
- }
+}
 
 .sports-category-dropdown-backgroung:hover .ball-content-specific-sport {
     display: block;
- }
+}
+
 /**************************sport-category-end************************************/
 
 
@@ -1034,7 +1056,7 @@ footer i {
         font-size: 100%;
         float: unset;
         padding: 5px 10px 0 10px;
-        
+
     }
 
     #logo-background p {
@@ -1055,7 +1077,7 @@ footer i {
         line-height: 0;
         color: whitesmoke;
         margin-top: -5px;
-     }
+    }
 
     #menu ul {
         height: 50px;
@@ -1085,14 +1107,14 @@ footer i {
     }
 
     .menu2 {
-        float:unset;
+        float: unset;
         /* margin: 10px 15px; */
         font-size: unset;
     }
 
     .menu2 a {
         color: whitesmoke;
-        }
+    }
 
     #cover-text-laning-img {
         top: 225px;
@@ -1126,15 +1148,15 @@ footer i {
     .active {
         border-bottom: 1px solid whitesmoke;
     }
-    
-   
+
+
     #menu li:hover {
         border-bottom: 1px solid whitesmoke;
     }
 
     .dropdown:hover .dropbtn {
         border-bottom: 1px solid whitesmoke;
-      }
+    }
 
     #slider-left-block {
         width: 100%;
@@ -1154,7 +1176,7 @@ footer i {
         border-radius: 10px;
         overflow: hidden; */
         float: unset;
-        
+
     }
 
     .signup-form {
@@ -1168,8 +1190,9 @@ footer i {
         margin: auto; */
         /* margin-top: -55px; */
         margin: 50px;
+    }
 }
-}
+
 /************************MQ until 950px***********************************/
 @media screen and (max-width: 950px) {
     /* #cover-text-laning-img {
@@ -1184,11 +1207,11 @@ footer i {
         height: 60px;
         padding: 5px;
         text-align: center;
-        }
+    }
 
     .menu2 a {
         color: whitesmoke;
-        }
+    }
 
     #cover-text-contact {
         top: 250px;
@@ -1257,7 +1280,8 @@ footer i {
         border: unset;
         background-color: rgba(122, 145, 154, 0.136);
         width: 100%;
-        text-align: center;}
+        text-align: center;
+    }
 
     #menu ul {
         /* height: inherit; */
@@ -1266,7 +1290,7 @@ footer i {
     }
 
     #menu li {
-        float:unset;
+        float: unset;
         background-color: rgb(37, 37, 37);
         padding: 2px;
         margin-top: auto;
@@ -1276,12 +1300,18 @@ footer i {
     #menu a {
         padding-top: 2px;
         margin-top: 1px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dropdown {
+        width: 100%;
     }
 
     #menu a:hover {
         color: aqua;
     }
-      
+
 
     .dropbtn {
         display: block;
@@ -1299,12 +1329,13 @@ footer i {
         margin-right: 5px;
     }
 
-    .onlyhere i {margin-right: -1px;
+    .onlyhere i {
+        margin-right: -1px;
     }
 
     .dropdown:hover .dropbtn {
         border-bottom: none
-      }
+    }
 
     .dropdown:hover .dropdown-content {
         display: none;
@@ -1361,7 +1392,7 @@ footer i {
     }
 
     footer li {
-        display:contents
+        display: contents
     }
 
     #coach-selection {
@@ -1377,6 +1408,7 @@ footer i {
     }
 
 }
+
 /***************Menu-2-Burger*******************/
 @media (max-width: 750px) {
     .menu-button-container {
@@ -1385,52 +1417,54 @@ footer i {
         float: right;
         /* margin-top: 20px; */
     }
-  
+
     .menu2 {
-      position: absolute;
-      top: 0;
-      margin-top: 50px;
-      left: 0;
-      flex-direction: column;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
+        position: absolute;
+        top: 0;
+        margin-top: 50px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
-  
-    #menu-toggle ~ .menu2 li {
-      height: 0;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-      overflow: hidden;
+
+    #menu-toggle~.menu2 li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+        overflow: hidden;
     }
-  
-    #menu-toggle:checked ~ .menu2 li {
+
+    #menu-toggle:checked~.menu2 li {
         border: 1px solid whitesmoke;
         height: 20px;
         padding: 5px;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+        width: 80%;
     }
-  
-    .menu2 > li {
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0.5em 0;
-      width: 100%;
-      color: whitesmoke;
-      background-color: rgb(37, 37, 37);
+
+    .menu2>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        color: whitesmoke;
+        background-color: rgb(37, 37, 37);
     }
-  
-    .menu2 > li:not(:last-child) {
-      border-bottom: 1px solid #444;
+
+    .menu2>li:not(:last-child) {
+        border-bottom: 1px solid #444;
     }
 }
+
 /**************burger end***************/
 
 /********************************MQ 500px************************************************/
-  @media (max-width: 500px) {
+@media (max-width: 500px) {
     #cover-text-laning-img {
         /* margin-left: unset; */
         width: 80%;
@@ -1440,6 +1474,15 @@ footer i {
     .sport-btn span {
         float: right;
         padding-right: 10px;
+    }
+
+    #sports-dropdown {
+        padding: 0 10px;
+        font-size: 90%;
+    }
+
+    .ball-content {
+        font-size: 70%;
     }
 
     #cover-text {
@@ -1516,7 +1559,7 @@ footer i {
         padding-left: 10px;
         font-size: 90%;
     }
-  }
+}
 
 /********************************MQ 290px************************************************/
 @media (max-width: 290px) {
@@ -1564,7 +1607,7 @@ footer i {
         top: 250px;
     } */
 
-    .ball-content-specific-sport{
+    .ball-content-specific-sport {
         font-size: 70%;
     }
 
