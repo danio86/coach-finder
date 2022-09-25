@@ -10,8 +10,8 @@ Coachfinder is a website that enables people from all over the world to practice
 
 - As a visiting user, I can easily understand the main purpose of the website. 
 - As a visiting user, I can navigate the website without any problems.
-- As a visiting user, I will be able to learn about the company as well as the users.
-- As a visiting user, I would like to contact the company founder and other users.
+- As a visiting user, I will be able to learn about other users and contact them.
+- As a visiting user, I can easily contact the company service.
 
 
 ## Features 
@@ -238,6 +238,25 @@ __The Send us a message section__
 <img src="assets/images/screenshot-lighthouse-mobil.png" alt="Lighthouse Mobil">
 
 
+- user story besed test cases (screenshots):
+
+  - As a visiting user, I can easily understand the main purpose of the website.
+      - Slogan and Slideshow
+      <img src="assets/images/screenshot-slogan-slideshow.png" alt="Slogan-Slideshow">
+
+  - As a visiting user, I can navigate the website without any problems.
+      - Navigation
+      <img src="assets/images/screenshot-userstory-test-navigation.png" alt="Navigation">
+
+  - As a visiting user, I will be able to learn about other users and contact them.
+      - Info about other user
+      <img src="assets/images/screenshot-userstory-test-user-contact.png" alt="Info about other user">
+
+  - As a visiting user, I can easily contact the company service.
+      - Company Service
+      <img src="assets/images/screenshot-contact.png" alt="Company Service">
+
+
 
 ### Unfixed Bugs
 
@@ -276,6 +295,8 @@ You can break the credits section up into Content and Media, depending on what y
 - Instructions on how to center content vertically and horizontally was taken from [w3schools](https://www.w3schools.com/howto/howto_css_center-vertical.asp)
 - The code for the password	confirmation is taken from [Codepen](https://codepen.io/diegoleme/pen/qBpyvr)
 
+- Color-Scheme
+  <img src="assets/images/color-scheme.png" alt="Color Scheme">
 
 ### Media
 
@@ -287,6 +308,11 @@ You can break the credits section up into Content and Media, depending on what y
   - [José Mourinho: Von Дмитрий Голубович - https://www.soccer0010.com/galery/1013397/photo/673146, CC BY-SA 3.0,](https://commons.wikimedia.org/w/index.php?curid=62794666)
   - [Zinédine Zidane: Von Tasnim News Agency, CC-BY 4.0,](https://commons.wikimedia.org/w/index.php?curid=64815490)
   - [Hansi Flick: Von Steffen Prößdorf, CC BY-SA 4.0,](https://commons.wikimedia.org/w/index.php?curid=121296260)
+
+
+
+
+
 
 ### Personal Advice
 
