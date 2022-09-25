@@ -1246,7 +1246,7 @@ a {
         width: 50%;
         /* height: 250px; */
         padding-bottom: unset;
-        height: 230px;
+        height: 200px;
     }
 
     .slide-images {
@@ -1334,6 +1334,12 @@ a {
 }
 
 /**************burger end***************/
+/********************************MQ 600px************************************************/
+@media screen and (max-width: 600px) {
+    .slide-show {
+        height: 150px;
+}
+}
 
 /********************************MQ 500px************************************************/
 @media (max-width: 500px) {
