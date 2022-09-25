@@ -18,7 +18,7 @@ Coachfinder is a website that enables people from all over the world to practice
 
 - __Header__
 
-    - The header contains the Coachfinder logo which is a link to the home webpage and the navigation bar.
+    - The header contains the Coachfinder logo which is a link to the home webpage and the navigation bar. The logo protrudes beyond the header edge.
     - The header has a fixed position and can be seen on all three websites at the top of the browser window.
     - The header tells the user the name of the company and clearly guides the user to all the points that interest them.
 
@@ -260,7 +260,11 @@ __The Send us a message section__
 
 ### Unfixed Bugs
 
-No Bugs are unfixed.
+ - No Bugs are unfixed.
+ - There were a few bugs, but they were fixed within a short time. 
+  - For example, the Sports category page displayed well in Firefox and not in Google Chrome. The image formatting caused free white areas to appear on the page in Google Chrome. 
+  - Another difficulty was the dropdown button (Sport) in the header menu. This had to be formatted separately, just like the other menu buttons.
+
 
 
 ## Deployment
