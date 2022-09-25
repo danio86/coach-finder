@@ -311,7 +311,8 @@ hr {
 
 .image-container img {
     height: 500px;
-    width: 800px;
+    /* width: 800px; */
+    width: auto;
 
 }
 
@@ -1234,14 +1235,18 @@ a {
     }
 
     .image-container img {
-        height: 250px;
+        /* height: 250px; */
         width: 100%;
+        /* width: auto; */
+        height: auto;
     }
 
     .slide-show {
-        width: 90%;
-        height: 250px;
+        /* width: 90%; */
+        width: 50%;
+        /* height: 250px; */
         padding-bottom: unset;
+        height: 230px;
     }
 
     .slide-images {
@@ -1335,6 +1340,17 @@ a {
     #cover-text-laning-img {
         width: 80%;
         top: 105px;
+    }
+
+    .slide-show {
+        width: 45%;
+        height: 150px;
+    }
+
+    .image-container img {
+        height: 150px;
+        /* width: 100%; */
+        width: auto;
     }
 
     .sport-btn span {
@@ -1435,6 +1451,17 @@ a {
 
     .menu-button-container {
         margin-right: 5px;
+    }
+
+    .slide-show {
+        /* width: 90%; */
+        width: 80%;
+    }
+
+    .image-container img {
+        height: 150px;
+        /* width: 100%; */
+        width: auto;
     }
 
     .sport-btn {
