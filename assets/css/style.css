@@ -311,7 +311,6 @@ hr {
 
 .image-container img {
     height: 500px;
-    /* width: 800px; */
     width: auto;
 
 }
@@ -1067,7 +1066,6 @@ a {
         margin-top: 50px;
         margin-bottom: 50px;
         float: unset;
-
     }
 
     .signup-form {
@@ -1188,7 +1186,6 @@ a {
         color: aqua;
     }
 
-
     .dropbtn {
         display: block;
         width: 750px;
@@ -1235,16 +1232,12 @@ a {
     }
 
     .image-container img {
-        /* height: 250px; */
         width: 100%;
-        /* width: auto; */
         height: auto;
     }
 
     .slide-show {
-        /* width: 90%; */
         width: 50%;
-        /* height: 250px; */
         padding-bottom: unset;
         height: 200px;
     }
@@ -1332,8 +1325,8 @@ a {
         border-bottom: 1px solid #444;
     }
 }
-
 /**************burger end***************/
+
 /********************************MQ 600px************************************************/
 @media screen and (max-width: 600px) {
     .slide-show {
@@ -1355,7 +1348,6 @@ a {
 
     .image-container img {
         height: 150px;
-        /* width: 100%; */
         width: auto;
     }
 
@@ -1460,13 +1452,11 @@ a {
     }
 
     .slide-show {
-        /* width: 90%; */
         width: 80%;
     }
 
     .image-container img {
         height: 150px;
-        /* width: 100%; */
         width: auto;
     }
 
