@@ -784,6 +784,18 @@ a {
     align-items: center;
 }
 
+.anwer-image{
+    clear: left;
+    background: url("../images/danzon-gc81717c6c_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
 /**********************************section2 send us a message end************************/
 
 /**************************answer.html end***************************/
