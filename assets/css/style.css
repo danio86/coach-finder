@@ -704,6 +704,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    width: initial;
 }
 
 .signup-form {
@@ -1143,7 +1144,7 @@ a {
 @media screen and (max-width: 750px) {
     #logo-background {
         float: left;
-        margin: 5px 15px;
+        margin: 5px 0 5px 25px;
         padding: 0 10px;
         font-size: 75%;
         margin-top: 20px;
@@ -1291,7 +1292,7 @@ a {
 @media (max-width: 750px) {
     .menu-button-container {
         display: flex;
-        margin-right: 15px;
+        margin-right: 25px;
         float: right;
     }
 
